@@ -1,0 +1,44 @@
+import { Meta,Story, Props, Preview, getComponentProps } from '@storybook/addon-docs/blocks';
+import { TItem } from '@/components/tis_ui'
+import { DictSelect } from '@/components/bussinessComponents';
+import { Form } from 'antd'
+
+
+<Meta title="表单组件/字典操作/DictSelect"
+  component={DictSelect}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 300 }}>{storyFn()}</div>]}
+ />
+
+# DictSelect `字典选择器`
+
+DictSelect 是三种不同字典形式的高阶组件, 通过dictType来控制字典的表现形式.
+dictType 不填,表示使用 DictSimpleSelect
+> dict="SH00XZQH"
+
+<Preview>
+   <Story name="index">
+    <Form>
+        <TItem name="dictSelect" label="行政区划">
+          <DictSelect dict="SH00XZQH"/>
+        </TItem>
+      </Form>
+   </Story>
+</Preview>
+
+--------------
+> dict="1000" dictType="tree"
+
+<Preview>
+  <Story name="dictSelect1000">
+    <Form>
+        <TItem name="dictSelect" label='个人法人'>
+          <DictSelect dict="1000" dictType="tree" />
+        </TItem>
+      </Form>
+  </Story>
+</Preview>
+
+<Props of={DictSelect} slot={(ctx, cmpt) => {
+    console.log(getComponentProps(cmpt, {}, ctx));
+    return getComponentProps(cmpt, {}, ctx)
+  }} />

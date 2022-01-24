@@ -1,0 +1,68 @@
+.optionSetting {
+  .optionSetting-header {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .optionSetting-body {
+    padding: 10px;
+
+    .optionSetting-card {
+      position: relative;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 1px 1px 0 #f0f0f0;
+
+      :global {
+        .ant-divider {
+          margin: 6px 0;
+          font-size: 14px;
+        }
+      }
+
+      .optionSetting-extBtn--wrap {
+        display: flex;
+        justify-content: right;
+      }
+
+      .optionSetting-middleBtn {
+        position: absolute;
+        top: 20px;
+        right: -5px;
+        font-size: 20px;
+        background-color: #fff;
+        cursor: pointer;
+
+        &.optionSetting-up {
+          top: 20px;
+        }
+
+        &.optionSetting-down {
+          top: 75px;
+        }
+
+        &.optionSetting-middleBtn--disabled {
+          color: #ddd;
+        }
+      }
+
+      .optionSetting-footer {
+        position: absolute;
+        bottom: -12px;
+        width: 100%;
+
+        .optionSetting-removeBtn {
+          display: block;
+          margin: auto;
+          box-shadow: 0 1px 1px 0 #f0f0f0;
+        }
+      }
+    }
+  }
+}

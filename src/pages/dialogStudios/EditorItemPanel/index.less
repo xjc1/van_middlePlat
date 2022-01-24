@@ -1,0 +1,101 @@
+@import '~antd/es/style/themes/default.less';
+
+.itemPanel {
+  flex: 1;
+
+  :global {
+    .ant-collapse-header {
+      padding: 8px 16px !important;
+      padding-left: 40px !important;
+
+      .anticon {
+        padding: 8px 0 !important;
+      }
+    }
+
+    .ant-collapse-content-box {
+      padding: 5px;
+    }
+
+    .ant-card {
+      height: 100%;
+    }
+
+    .ant-card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      > div {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+.optionItem {
+  @itemHeight: 40px;
+
+  z-index: 4;
+
+  > div {
+    min-width: 140px;
+    height: @itemHeight;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: @itemHeight;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    user-select: none;
+
+    .optionIcon {
+      padding-right: 10px;
+      font-size: 18px;
+    }
+  }
+
+  &.userInputNode {
+    > div {
+      border-top: 3px solid #73d13d;
+      .optionIcon {
+        color: #73d13d;
+      }
+    }
+  }
+
+  &.judgeNode {
+    > div {
+      border-top: 3px solid #40a9ff;
+      .optionIcon {
+        color: #40a9ff;
+      }
+    }
+  }
+
+  &.optionNode {
+    > div {
+      border-top: 3px solid #ff7a45;
+      .optionIcon {
+        color: #ff7a45;
+      }
+    }
+  }
+  &.answerNode {
+    > div {
+      border-top: 3px solid #08979c;
+      .optionIcon {
+        color: #08979c;
+      }
+    }
+  }
+  &.slot {
+    > div {
+      border-top: 3px solid #eb2f96;
+      .optionIcon {
+        color: #eb2f96;
+      }
+    }
+  }
+}

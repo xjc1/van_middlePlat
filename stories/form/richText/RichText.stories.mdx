@@ -1,0 +1,32 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
+import { Form, Button } from 'antd';
+import { RichText } from '@/components/tis_ui';
+
+<Meta
+  title="表单组件/富文本/RichText"
+  component={RichText}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 200 }}>{storyFn()}</div>]}
+/>
+
+# RichText `富文本输入控件`
+
+`RichText` 组件是基于 `braft-editor` 富文本插件二次封装的，在原有的基础上添加了 base64 属性。
+
+关于 `braft-editor` 详细的使用可以查看 [官方文档](https://www.yuque.com/margox/be/lzwpnr)。
+
+<Preview>
+  <Story name="index">
+    <Form
+      onFinish={vals => console.log('vals', vals)}
+    >
+      <Form.Item name="richText">
+        <RichText />
+      </Form.Item>
+      <Button htmlType="submit">提交</Button>
+    </Form>
+  </Story>
+</Preview>
+
+### 参数
+
+<Props of={RichText} />

@@ -1,0 +1,39 @@
+@import '../../../layouts/goldenLayout/golden';
+
+.goldenToolbar-full {
+  display: flex;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+
+  ul {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5px 10px;
+      cursor: pointer;
+
+      &.active {
+        color: @golden-primary-color;
+      }
+
+      &.text {
+        cursor: auto;
+      }
+    }
+
+    &.right {
+      flex: auto;
+      justify-content: flex-end;
+    }
+  }
+
+  .goldenToolbar-divider-vertical {
+    height: 100%;
+    border-left: 1px solid @golden-primary-bg-color;
+  }
+}

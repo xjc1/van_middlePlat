@@ -1,0 +1,84 @@
+.settingPanel {
+  position: relative;
+  height: 100%;
+
+  @header_height: 28px;
+
+  .settingPanel-title {
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    padding: 0 20px;
+    color: #fff;
+    line-height: 28px;
+    background-color: #40a9ff;
+    border-bottom: 1px solid #40a9ff;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .settingPanel-icon {
+      padding-right: 10px;
+    }
+  }
+
+  &.settingPanel-light {
+    .settingPanel-title {
+      background-color: #69c0ff;
+    }
+  }
+
+  &.settingPanel-light2 {
+    .settingPanel-title {
+      color: unset;
+      background-color: #91d5ff;
+    }
+  }
+
+  .settingPanel-content {
+    position: absolute;
+    top: @header_height;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    overflow-y: auto;
+
+    .settingPanel-description {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-height: 100px;
+      padding: 0 10px;
+    }
+
+    .userAsk {
+      padding: 0 5px;
+
+      .userAsk-title {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.conditionBranch-card {
+  position: relative;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 1px 1px 0 #f0f0f0;
+}
+
+.userAsk-addForm {
+  width: 300px;
+
+  .userAsk-formBtn {
+    display: flex;
+    justify-content: right;
+  }
+}

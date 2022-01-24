@@ -1,0 +1,32 @@
+.refreshCard {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  box-shadow: 2px 2px 5px #666;
+}
+
+.title {
+  max-width: 50%;
+  font-weight: bold;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  width: 10%;
+  height: 5px;
+  background: #1890ff;
+  animation: progress 2s ease-in-out infinite;
+}
+
+@keyframes progress {
+  from {
+    left: 0;
+  }
+
+  to {
+    right: 0;
+    left: 90%;
+  }
+}

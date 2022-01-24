@@ -1,0 +1,85 @@
+import { Meta,Story, Props, Preview   } from '@storybook/addon-docs/blocks';
+import { TItem, TButton, EXButton, confirmAble } from '@/components/tis_ui'
+import { Row, Col, Space } from 'antd'
+import Toolbar from '../Toolbar'
+
+<Toolbar />
+
+<Meta title="纯UI/TButton"
+  component={EXButton}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 100 }}>{storyFn()}</div>]}
+ />
+
+# TButton `按钮`
+
+`EXButton` 基于 `antd` 的 `Button` 组件封装. **所以`Button`的参数都可以用**
+
+`EXButton` 提供拓展了`Button`, 封装了确认操作弹出框.
+
+`TButton.*`  按钮默认配置了一些常用按钮. 指导相同功能有相同的呈现形式.  **当然,你还是可以随意覆盖这些默认配置**
+> 但是如果你需要覆盖大量`TButton.*` 配置, 干嘛不直接用 `EXButton` 呢?
+
+<Preview>
+  <Story name="index">
+  <div style={{display: 'flex',
+                   flexWrap: 'wrap',
+                   height: '100px',}}>
+    <Space>
+    <TButton.Button>普通</TButton.Button>
+    <EXButton>普通</EXButton>
+    <TButton.Reset>重置</TButton.Reset>
+    <TButton.Preview>预览</TButton.Preview>
+    <TButton.Config>配置</TButton.Config>
+    <TButton.List>查看</TButton.List>
+    </Space>
+    <Space>
+    <TButton.Download>下载</TButton.Download>
+    <TButton.Output>导出</TButton.Output>
+    <TButton.Input>导入</TButton.Input>
+    <TButton.Commit>提交</TButton.Commit>
+    <TButton.Delete>删除</TButton.Delete>
+    <TButton.Edit>编辑</TButton.Edit>
+    <TButton.Create>创建</TButton.Create>
+    </Space>
+    </div>
+  </Story>
+</Preview>
+
+## 确认操作
+> 通过配置 `confirmText` 可以让一个按钮具有确认效果, 一般来说 `confirmText` `confirmContent`会成对配置.
+
+<Preview>
+  <Story name="confirm">
+  <div style={{display: 'flex',
+                   flexWrap: 'wrap',
+                   height: '100px'}}>
+    <Space>
+    <EXButton okType="primary" confirmText="警告" confirmContent="没什么可说的">普通</EXButton>
+    <TButton.Reset okType="primary" confirmText="警告" confirmContent="这是一个重置确认警告,我的确认按钮类型是 primary">重置</TButton.Reset>
+    <TButton.Delete confirmText="警告" confirmContent="这是一个删除警告" >删除</TButton.Delete>
+    <TButton.Create okType="primary"  confirmText="警告" confirmContent="这是一个创建确认">创建</TButton.Create>
+    </Space>
+    </div>
+  </Story>
+</Preview>
+
+## confirmAble
+confirmAble 快捷的将一个函数转换成确认函数
+
+`EXButton` 的确认也是通过 `confirmAble` 实现的
+
+<Preview>
+  <Story name="confirmAbleOper">
+  <div style={{height: '100px',}}>
+        <a onClick={() => {
+                confirmAble({confirmText: '警告',
+                             confirmContent: '测试一下, 我传入一个onClick, 返回另一个函数?',
+                             onClick: () => {alert('ooook')}
+                     }
+                   )();}}>测试一下</a>
+    </div>
+  </Story>
+</Preview>
+
+### `EXButton` 参数
+<Props of={EXButton} />

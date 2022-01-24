@@ -1,0 +1,75 @@
+.emoticon-list {
+  width: 100%;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+
+  .emoticon-item {
+    margin-bottom: 10px;
+    text-align: center;
+
+    img {
+      box-sizing: border-box;
+      width: 65px;
+      height: 65px;
+      padding: 2px;
+      vertical-align: top;
+
+      &.edit-item {
+        border: 1px solid #ccc;
+        cursor: pointer;
+      }
+
+      &.selected-emoticon {
+        border: 2px solid #1890ff;
+      }
+    }
+  }
+}
+
+.emoticon-operate-btn {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.emoticon-list-empty {
+  margin: 0;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.emoticon-preview {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #eee;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+  }
+
+  .emoticon-delete-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    display: none;
+  }
+
+  &:hover {
+    .emoticon-delete-btn {
+      display: block;
+    }
+  }
+
+  &.preview-disabled {
+    cursor: default;
+
+    .emoticon-delete-btn {
+      display: none;
+    }
+  }
+}

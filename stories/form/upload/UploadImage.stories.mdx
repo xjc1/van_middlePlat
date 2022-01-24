@@ -1,0 +1,47 @@
+import { Meta, Stroy, Preview, Props } from '@storybook/addon-docs/blocks';
+import { Form, Button } from 'antd';
+import { UploadImage } from '@/components/tis_ui';
+
+<Meta
+  title="表单组件/上传按钮/UploadImage"
+  component={UploadImage}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 200 }}>{storyFn()}</div>]}
+/>
+
+# UploadImage `图片上传控件`
+
+基于 `antd` 的 `Upload` 组件实现的表单自定义控件，这里仅仅是封装了其组件属性 `listType="picture-card"` 的情况。
+
+通过此组件上传的图片都会处理成 `Base64` 的字符串。
+
+<Preview>
+  <Story name="index">
+    <Form
+      onFinish={vals => console.log('vals', vals)}
+    >
+      <Form.Item name="img" label="图片上传">
+        <UploadImage />
+      </Form.Item>
+      <Button htmlType="submit" type="primary" ghost={false}>提交</Button>
+    </Form>
+  </Story>
+</Preview>
+
+### 有删除按钮的情况
+
+<Preview>
+  <Story name="widthDeleteBtn">
+    <Form
+      onFinish={vals => console.log('vals', vals)}
+    >
+      <Form.Item name="img" label="图片上传">
+        <UploadImage allowClear />
+      </Form.Item>
+      <Button htmlType="submit" type="primary" ghost={false}>提交</Button>
+    </Form>
+  </Story>
+</Preview>
+
+### 参数
+
+<Props of={UploadImage} />

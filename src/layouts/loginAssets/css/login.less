@@ -1,0 +1,85 @@
+@font-face {
+  font-family: bigTitle;
+  src: url('./font/bigTitle.ttf') format('truetype');
+}
+
+.loginAll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  height: 460px;
+  margin-top: -200px;
+  margin-left: -500px;
+}
+
+.loginTitle {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 90px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 64px;
+  font-family: bigTitle;
+  text-align: center;
+  text-shadow: rgba(0, 80, 154, 0.6) 0 4px 4px;
+}
+
+.loginForm {
+  position: absolute;
+  top: 90px;
+  right: -20px;
+  box-sizing: border-box;
+  width: 320px;
+  height: 290px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 20px;
+
+  h4 {
+    margin: 0 0 20px;
+    color: #4a4a4a;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  ul li {
+    margin-bottom: 30px;
+  }
+
+  ul li input[type='text'],
+  ul li input[type='password'] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    padding: 0 12px;
+    line-height: 36px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+
+  ul li input[type='button'],
+  ul li button {
+    width: 100%;
+    height: 36px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 6px;
+    text-align: center;
+    background: #1890ff;
+    border: 1px solid #1890ff;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+}

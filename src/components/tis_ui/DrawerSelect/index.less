@@ -1,0 +1,42 @@
+.groupDrawer {
+  .groupDrawer-groupName {
+    font-weight: 600;
+
+    &:hover {
+      color: #fff;
+      background-color: #1890ff;
+    }
+  }
+
+  .groupDrawer-group {
+    position: relative;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    padding: 0 10px;
+    background: #f5f5f5;
+
+    .groupDrawer-header {
+      width: auto;
+      margin-right: -10px;
+      margin-left: -10px;
+      padding: 0 10px;
+      padding-right: 50px;
+      cursor: pointer;
+
+      &:hover {
+        background: #e8e8e8;
+      }
+    }
+
+    .groupDrawer-collapseIcon {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      z-index: 2;
+      width: 50px;
+      color: #1890ff;
+      background: inherit;
+    }
+  }
+}

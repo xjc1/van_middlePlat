@@ -1,0 +1,52 @@
+.ruleEditPanel {
+  padding: 0 10px;
+
+  .ruleEditPanel-content {
+    padding: 10px 0;
+
+    .ruleEditPanel-formList {
+      .ruleEditPanel-formListHeader {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #ddd;
+
+        .ruleEditPanel-formListName {
+          align-self: center;
+        }
+      }
+
+      .ruleEditPanel-formListBody {
+        padding: 10px 0;
+
+        .ruleEditPanel-formListPiece {
+          position: relative;
+          margin-bottom: 20px;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 12px;
+          box-shadow: 0 1px 1px 0 #f0f0f0;
+
+
+          .ruleEditPanel-pieceFooter {
+            position: absolute;
+            bottom: -12px;
+            width: 100%;
+
+            .ruleEditPanel-removeBtn {
+              display: block;
+              margin: auto;
+              box-shadow: 0 1px 1px 0 #f0f0f0;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .ruleEditPanel-footer {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+  }
+}

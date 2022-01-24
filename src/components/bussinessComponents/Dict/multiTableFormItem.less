@@ -1,0 +1,23 @@
+.multiTableLabel {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: middle;
+
+  .label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+  }
+
+  &::after {
+    position: relative;
+    top: -0.5px;
+    margin: 0 8px 0 2px;
+    content: ':';
+  }
+}

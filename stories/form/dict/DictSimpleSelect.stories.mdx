@@ -1,0 +1,40 @@
+import { Meta,Story, Props, Preview   } from '@storybook/addon-docs/blocks';
+import { DictSelect } from '@/components/bussinessComponents'
+import { TItem } from '@/components/tis_ui'
+import { Form } from 'antd'
+
+
+<Meta title="表单组件/字典操作/DictSimpleSelect"
+  component={DictSimpleSelect}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 300 }}>{storyFn()}</div>]}
+ />
+
+# DictSimpleSelect `简单字典选择器`
+
+DictSimpleSelect 会获取传入字典名称 `dict` 的下级字典数据. 并转换成select.
+> dict="SH00XZQH"
+
+<Preview>
+  <Story name="index">
+    <Form>
+        <TItem name="dictSelect" label='行政区划'>
+          <DictSimpleSelect dict="SH00XZQH"/>
+        </TItem>
+      </Form>
+  </Story>
+</Preview>
+
+--------------
+> dict="1000"
+
+<Preview>
+  <Story name="1000">
+    <Form>
+        <TItem name="dictSelect" label='个人法人'>
+          <DictSimpleSelect dict="1000"/>
+        </TItem>
+      </Form>
+  </Story>
+</Preview>
+
+<Props of={DictSimpleSelect} />

@@ -1,0 +1,142 @@
+.policy_exam_page {
+  display: flex;
+  height: 100%;
+
+  .preview_block {
+    flex: 0.6 1;
+    height: 100%;
+    padding: 0 20px 0 0;
+    cursor: pointer;
+  }
+
+  .form_block {
+    position: relative;
+    flex: 1 1;
+    height: 100%;
+
+    .projectTab,
+    .questionTab {
+      height: 100%;
+
+      :global {
+        .ant-tabs-nav::before {
+          border-bottom: 1px solid #999;
+        }
+
+        .ant-tabs-content {
+          height: 100%;
+        }
+      }
+
+      .optionsNumBadge {
+        :global {
+          .ant-badge-count {
+            color: #999;
+            background-color: #fff;
+            box-shadow: 0 0 0 1px #d9d9d9 inset;
+          }
+        }
+      }
+    }
+
+    .projectForm,
+    .questionForm {
+      position: absolute;
+      top: 49px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-right: 10px;
+      overflow-y: auto;
+    }
+
+    .marginBtm20 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.codemirrorParams {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  left: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  :global {
+    .CodeMirror {
+      height: 100%;
+    }
+  }
+}
+
+.codemirrorParams2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  :global {
+    .CodeMirror {
+      height: 100%;
+    }
+  }
+}
+
+.codemirrorCompute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  :global {
+    .CodeMirror {
+      height: 100%;
+    }
+  }
+}
+
+.computeTabs {
+  :global {
+    .ant-tabs {
+      height: 100%;
+
+      .ant-tabs-tabpane {
+        height: 100%;
+      }
+    }
+
+    .ant-tabs-tab {
+      padding-right: 2px !important;
+    }
+
+    .ant-tabs-nav {
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    .ant-tabs-tabpane {
+      position: relative;
+      padding-left: 0 !important;
+    }
+  }
+}
+
+.testExam-card {
+  .testExam-card-group-title {
+    font-weight: 600;
+  }
+
+  .testExam-card-group-warning {
+    color: red;
+  }
+}

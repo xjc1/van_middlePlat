@@ -1,0 +1,34 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
+import { TSelect } from '@/components/tis_ui';
+import _ from 'lodash';
+import mockData from '../data.js';
+
+<Meta
+  title="纯UI/TSelect"
+  component={TSelect}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 260 }}>{storyFn()}</div>]}
+/>
+
+# TSelect `下拉框`
+
+`TSelect` 基于 `antd` 的 `Select` 组件封装. **所以 `Select` 的参数都可以用**。
+
+此组件的 **支持清除** 属性默认开启，并且下拉框的渲染位置由默认的 `body` 改到了父元素上。
+
+<Preview>
+  <Story name="index">
+    <TSelect style={{ width: '200px' }}>
+      {
+        _.map(mockData.select, ({ key, label }) => (
+          <TSelect.Option value={key} key={key}>
+            {label}
+          </TSelect.Option>
+        ))
+      }
+    </TSelect>
+  </Story>
+</Preview>
+
+### 参数
+
+<Props of={TSelect} />

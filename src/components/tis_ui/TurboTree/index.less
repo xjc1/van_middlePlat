@@ -1,0 +1,176 @@
+.scenesQAToolbar {
+  .btn {
+    margin-left: 5px;
+  }
+
+  .queryInput {
+    margin: 0 5px;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.scenesTree {
+  :global {
+    .ant-tree-treenode {
+      position: relative;
+      .ant-tree-node-content-wrapper {
+        overflow: hidden;
+      }
+    }
+  }
+
+  .line {
+    display: flex;
+    justify-content: space-between;
+
+    &.active {
+      font-weight: 800;
+      background: #d3f261;
+    }
+
+    .title {
+      width: calc(100% - 64px);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .treeMoreIcon {
+      margin-left: 5px;
+
+      &.primary {
+        color: #1890ff;
+      }
+    }
+
+    .warringTip {
+      display: inline-block;
+      width: 8px;
+
+      :global {
+        .ant-badge-status-processing::after {
+          border: 1px solid #fa8c16;
+        }
+      }
+    }
+  }
+
+  //:global {
+  //  .ant-tree-treenode {
+  //    width: 100%;
+  //
+  //    .ant-tree-node-content-wrapper {
+  //      display: block;
+  //      width: 100%;
+  //
+  //      .ant-tree-title {
+  //        display: block;
+  //        width: 100%;
+  //      }
+  //    }
+  //  }
+  //}
+}
+
+.verticalToolbar {
+  position: absolute;
+  top: 30%;
+  left: 2px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+
+  .btn {
+    margin-top: 5px;
+  }
+}
+
+.mainGrid {
+  position: relative;
+  height: 100%;
+}
+
+.innerbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: inherit;
+}
+
+.innerboxScroll {
+  :global {
+    .ant-tree-list {
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #1890ff;
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      &::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 0;
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+
+.editPageInnerbox {
+  position: absolute;
+  top: 96px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+  .centered {
+    display: block;
+    margin: auto;
+  }
+}
+
+.centerWrap {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1111;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background: rgb(245, 245, 245, 0.2);
+}
+
+.spinCenter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.6);
+
+  :global {
+    .ant-spin-dot {
+      margin: auto;
+    }
+  }
+}

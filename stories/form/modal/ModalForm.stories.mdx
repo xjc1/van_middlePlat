@@ -1,0 +1,48 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import { Input, Button } from 'antd';
+import { ModalForm, TItem } from '@/components/tis_ui';
+import ModalFormWrap from './ModalFormWrap.js';
+
+<Meta
+  title="表单组件/对话框/ModalForm"
+  component={ModalForm}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 200 }}>{storyFn()}</div>]}
+/>
+
+# ModalForm `对话框表单`
+
+ModalForm 提供通用的对话框表单。
+
+<Preview>
+  <Story name="index">
+    <ModalFormWrap>
+   { (visible, handleCancel, onForm = () => {}) => {
+     return <ModalForm
+              onForm={onForm}
+              initialValues={{
+                name: 'this is my name'
+                }}
+              visible={visible}
+              title="模型信息"
+              maskClosable={false}
+              handleCancel={handleCancel}
+              width="50%"
+              footer={
+                  <div>
+                    <Button onClick = {handleCancel} >取消</Button>
+                    <Button type="primary">
+                      提交
+                    </Button>
+                  </div>
+                } >
+              <TItem label='输入' name='name'>
+                <Input/>
+              </TItem>
+            </ModalForm>
+    }
+   }
+    </ModalFormWrap>
+  </Story>
+</Preview>
+
+<Props of={ModalForm} />

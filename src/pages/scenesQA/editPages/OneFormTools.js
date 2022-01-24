@@ -1,0 +1,3 @@
+function generateRecordId() {}
+
+export { generateRecordId };

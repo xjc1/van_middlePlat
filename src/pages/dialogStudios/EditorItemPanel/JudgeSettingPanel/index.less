@@ -1,0 +1,53 @@
+.conditionBranch {
+  .conditionBranch-header {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+    // border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .conditionBranch-body {
+    padding: 10px;
+
+    .conditionBranch-card {
+      position: relative;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 1px 1px 0 #f0f0f0;
+
+      .conditionBranch-hideFormItem {
+        height: 0;
+        overflow: hidden;
+      }
+
+      :global {
+        .ant-divider {
+          margin: 6px 0;
+          font-size: 14px;
+        }
+      }
+
+      .conditionBranch-extBtn--wrap {
+        display: flex;
+        justify-content: right;
+      }
+
+      .conditionBranch-footer {
+        position: absolute;
+        bottom: -12px;
+        width: 100%;
+
+        .conditionBranch-removeBtn {
+          display: block;
+          margin: auto;
+          box-shadow: 0 1px 1px 0 #f0f0f0;
+        }
+      }
+    }
+  }
+}

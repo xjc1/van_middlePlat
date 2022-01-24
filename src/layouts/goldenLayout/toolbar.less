@@ -1,0 +1,39 @@
+@import './golden';
+
+.golden-toolbar-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  margin: 6px 0 5px 0;
+  background-color: @golden-primary-bg-color;
+  border: 1px solid @golden-primary-border-color;
+  border-right: none;
+
+  ul.goldenToolbar {
+    text-align: center;
+
+    &.toolbar-top {
+      li {
+        border-bottom: 1px solid @golden-primary-border-color;
+      }
+    }
+
+    &.toolbar-bottom {
+      li {
+        border-top: 1px solid @golden-primary-border-color;
+      }
+    }
+
+    li {
+      padding: 5px 0;
+      cursor: pointer;
+
+      &.active {
+        color: white;
+        background-color: #1f86f0;
+      }
+    }
+  }
+}

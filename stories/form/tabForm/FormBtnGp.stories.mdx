@@ -1,0 +1,21 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import { Input } from 'antd';
+import { FormBtnGp } from '@/components/tis_ui';
+
+<Meta
+  title="表单组件/标签页表单/FormBtnGp"
+  component={FormBtnGp}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 200 }}>{storyFn()}</div>]}
+/>
+
+# FormBtnGp `表单固定操作按钮`
+
+FormBtnGp 将表单操作按钮固定到页面指定位置，优化了页面交互。
+
+<Preview>
+  <Story name="index">
+    <FormBtnGp />
+  </Story>
+</Preview>
+
+<Props of={FormBtnGp} />

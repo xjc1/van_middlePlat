@@ -1,0 +1,120 @@
+@golden-primary-bg-color: #e1e1e1;
+@golden-primary-tab-color: #40a9ff;
+@golden-primary-border-color: #cccccc;
+@golden-primary-color: #1890ff;
+
+.goldenCanvas {
+  display: flex;
+  height: 100%;
+  background-color: #f4f4f4;
+
+  &.fullScreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .goldenRegions {
+    display: flex;
+    flex: 1 auto;
+    flex-direction: column;
+
+    .header {
+      position: relative;
+      z-index: 1;
+      box-sizing: content-box;
+      min-height: 25px;
+      overflow: visible;
+      user-select: none;
+
+      ul.tabs {
+        position: absolute;
+
+        li.tab {
+          position: relative;
+          float: left;
+          height: 25px;
+          margin-top: 1px;
+          margin-right: 2px;
+          padding: 0 10px 5px;
+          padding-right: 25px;
+          color: #888;
+          line-height: 20px;
+          background: #fafafa;
+          border: 1px solid #ccc;
+          cursor: pointer;
+
+          &.active {
+            padding-bottom: 5px;
+            color: #fff;
+            background: @golden-primary-tab-color;
+            border: 1px solid @golden-primary-border-color;
+            border-bottom: none;
+          }
+        }
+      }
+
+      ul.controls {
+        position: absolute;
+        right: 3px;
+
+        li.control {
+          float: left;
+          height: 18px;
+          padding-left: 5px;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .content {
+      position: relative;
+      display: flex;
+      height: 100%;
+      background-color: @golden-primary-bg-color;
+      border: 1px solid @golden-primary-border-color;
+
+      .goldenRegion {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        overflow-y: auto;
+        background: inherit;
+        visibility: hidden;
+
+        &.active {
+          z-index: 3;
+          visibility: unset;
+        }
+      }
+    }
+  }
+
+  .divider_r {
+    padding-right: 5px;
+  }
+
+  .divider_l {
+    padding-left: 5px;
+  }
+
+  .divider_t {
+    padding-top: 5px;
+  }
+
+  .divider_b {
+    padding-bottom: 5px;
+  }
+}

@@ -1,0 +1,57 @@
+@import '~antd/es/style/themes/default.less';
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+
+  :global {
+    .command .anticon {
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      margin: 0 6px;
+      padding-top: 6px;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        border: 1px solid @item-active-bg;
+      }
+    }
+
+    .disable .anticon {
+      color: @text-color-secondary;
+      cursor: auto;
+
+      &:hover {
+        border: 1px solid @border-color-base;
+      }
+    }
+  }
+
+  .toolbar-btn-wrap {
+    position: absolute;
+    top: -20px;
+    display: flex;
+
+    .toolbar-btn {
+      box-shadow: -4px 1px 13px #ddd;
+      cursor: pointer;
+
+      &.toolbar-btn--active {
+        color: #fff;
+        background: #40a9ff;
+      }
+    }
+  }
+}
+
+.tooltip {
+  :global {
+    .ant-tooltip-inner {
+      font-size: 12px;
+      border-radius: 0;
+    }
+  }
+}

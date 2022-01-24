@@ -1,0 +1,78 @@
+import { Meta, Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { TTable } from "@/components/tis_ui";
+import data from '../data.js'
+
+<Meta
+  title="表格组件/TTable"
+  component={TTable}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 100 }}>{storyFn()}</div>]}
+/>
+
+# TTable `表格`
+
+`TTable` 基于 `antd` 的 `Table` 组件封装，**所以 `Table` 的参数都可以用**。
+
+在 `TTable` 中默认配置了一些分页器属性，当然，这些也都是可以进行覆盖的：
+
+```js
+pagination: {
+  showSizeChanger: false,
+  showQuickJumper: true,
+  showTotal: total => `总共 ${total} 条数据`,
+}
+```
+
+> **注意：** 因为业务原因，当 `pagination` 中的 `current` 存在时，这里会默认将其 **+1**，以满足与后端的交互。
+
+<Preview>
+  <Story name="index">
+    <TTable
+      dataSource={data.list}
+      columns={[
+        {
+          title: '姓名',
+          dataIndex: 'name'
+        },
+        {
+          title: '年龄',
+          dataIndex: 'age'
+        }
+      ]}
+      pagination={{
+        defaultPageSize: 5
+      }}
+      rowKey="key"
+    />
+  </Story>
+</Preview>
+
+### 配置了 `pagination` 的 `current` 情况，（这里配置的 `current` 为 2）。
+
+> **注意：** 当配置了 `current` 属性后，就要手动实现 `pagination` 中的 `onChange` 事件了（这里暂时没有去实现）。
+
+<Preview>
+  <Story name="paginationSetting">
+    <TTable
+      dataSource={data.list}
+      columns={[
+        {
+          title: '姓名',
+          dataIndex: 'name'
+        },
+        {
+          title: '年龄',
+          dataIndex: 'age'
+        }
+      ]}
+      pagination={{
+        current: 2,
+        defaultPageSize: 5
+      }}
+      rowKey="key"
+    />
+  </Story>
+</Preview>
+
+### TTable 的参数
+
+<Props of={TTable} />

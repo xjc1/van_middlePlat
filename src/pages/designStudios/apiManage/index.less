@@ -1,0 +1,19 @@
+.link-btn {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.section-title {
+  position: relative;
+  padding-left: 10px;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background: #1890ff;
+    content: '';
+  }
+}

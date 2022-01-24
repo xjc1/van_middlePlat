@@ -1,0 +1,116 @@
+.designLayout {
+  position: relative;
+  display: flex;
+  height: 100%;
+  background-color: #f4f4f4;
+  @toolbarWidth: 20px;
+  @borderColor: #ccc;
+  @panelBgColor: #e1e1e1;
+
+  .designLayout-toolbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: @toolbarWidth;
+    background-color: @panelBgColor;
+    border: 1px solid #ccc;
+    border-right: none;
+
+    .designLayout-toolbarPanel {
+      .designLayout-toolbarPanelIcon {
+        padding: 5px 0;
+        text-align: center;
+        border-bottom: 1px solid @borderColor;
+        cursor: pointer;
+      }
+
+      .designLayout-toolbarPanelContent {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: @toolbarWidth;
+        z-index: 3;
+        display: none;
+        min-width: 200px;
+        padding: 5px;
+        background-color: @panelBgColor;
+        border: 1px solid @borderColor;
+        border-left: 1px solid #f0f0f0;
+        box-shadow: 3px 0 6px 0 #e9e9e9;
+      }
+
+      &.designLayout-toolbarPanel--active {
+        .designLayout-toolbarPanelIcon {
+          color: white;
+          background-color: #1f86f0;
+        }
+
+        .designLayout-toolbarPanelContent {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .designLayout-main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid @borderColor;
+    @toolbar-height: 30px;
+
+    .designLayout-mainToolbar {
+      display: flex;
+      height: @toolbar-height;
+      border-bottom: 1px solid @borderColor;
+
+      .designLayout-command {
+        min-width: 50px;
+        height: @toolbar-height;
+        line-height: @toolbar-height;
+        text-align: center;
+        cursor: pointer;
+
+        &.designLayout-command--primary {
+          color: #1f86f0;
+        }
+      }
+
+      .designLayout-text {
+        min-width: 50px;
+        height: @toolbar-height;
+        line-height: @toolbar-height;
+      }
+    }
+  }
+
+  .designLayout-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .detailPanel {
+    z-index: 5;
+    width: 350px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid @borderColor;
+    box-shadow: -3px 0 8px #999;
+
+    &.detailPanel-sub2 {
+      z-index: 4;
+      border-right: 0;
+    }
+
+    &.detailPanel-sub3 {
+      z-index: 3;
+      border-right: 0;
+    }
+  }
+}

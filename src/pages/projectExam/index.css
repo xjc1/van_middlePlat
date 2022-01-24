@@ -1,0 +1,12 @@
+.policy_exam_page {
+  display: flex;
+}
+.policy_exam_page .preview_block {
+  flex: 0.8;
+  padding: 0 20px 0 0 ;
+  cursor: pointer;
+}
+.policy_exam_page .form_block {
+  flex: 1;
+  overflow-y: auto;
+}

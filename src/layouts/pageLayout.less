@@ -1,0 +1,276 @@
+@header_padding: 34px;
+@header_height: 50px;
+@aside_open: 256px;
+@aside_collapsed: 80px;
+@layout-header-background: #1f86f0;
+@layout-header-font-color: white;
+
+.page_layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+
+  .page_layout_content {
+    position: relative;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+
+    header {
+      z-index: 9;
+      flex: 0 0 auto;
+      width: 100%;
+      height: @header_height;
+      padding: 0;
+      color: #fff;
+      line-height: @header_height;
+      background: #001529;
+
+      &.light {
+        color: @layout-header-font-color;
+        background: @layout-header-background;
+
+        :global {
+          h1 {
+            color: @layout-header-font-color;
+          }
+        }
+      }
+
+      .nav_header {
+        display: flex;
+        height: @header_height;
+        padding-right: @header_padding;
+        // padding-left: @header_padding;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        transition: background 0.3s, width 0.2s;
+
+        .nav_header_left {
+          .nav_logo {
+            position: relative;
+            height: @header_height;
+            overflow: hidden;
+            line-height: @header_height;
+            transition: all 0.3s;
+
+            img {
+              display: inline-block;
+              height: 32px;
+              vertical-align: middle;
+            }
+
+            h1 {
+              display: inline-block;
+              margin: 0 0 0 12px;
+              // color: #fff;
+              font-weight: 400;
+              font-size: 16px;
+              vertical-align: top;
+            }
+          }
+        }
+
+        .nav_header_menu {
+          flex: 1 1 0%;
+          overflow: hidden;
+
+          .top_nav_header_menu {
+            display: flex;
+            justify-content: left;
+            height: @header_height;
+            line-height: @header_height;
+            background: @layout-header-background;
+            border: none;
+
+            :global {
+              .ant-menu-item {
+                &.ant-menu-item-selected {
+                  border-bottom: 4px solid @layout-header-font-color;
+                }
+
+                > a {
+                  color: @layout-header-font-color;
+                }
+              }
+            }
+          }
+        }
+
+        .nav_header_mine {
+          min-width: 240px;
+
+          .nav_header_action {
+            float: right;
+            height: 100%;
+            margin-left: auto;
+            overflow: hidden;
+
+            .header_action {
+              display: inline-block;
+              height: 100%;
+              padding: 0 12px;
+              // color: hsla(0, 0%, 100%, .85);
+              cursor: pointer;
+              transition: all 0.3s;
+
+              .avatar_img {
+                margin: 14px 8px 14px 0;
+                color: #1890ff;
+                vertical-align: top;
+                background: hsla(0, 0%, 100%, 0.85);
+              }
+
+              :global {
+                .anticon {
+                  // color: hsla(0, 0%, 100%, .85);
+                  font-size: 16px;
+                  vertical-align: middle;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      position: relative;
+      display: flex;
+      flex: auto;
+      flex-direction: row;
+      background: #f0f2f5;
+      transition: all 0.2s;
+
+      aside {
+        flex: 0 0 @aside_open;
+        width: @aside_open;
+        // box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+        // margin: 10px;
+        margin-right: 0;
+        background: white;
+
+        :global {
+          .ant-menu {
+            height: 100%;
+          }
+        }
+
+        .triggerMenu {
+          position: absolute;
+          top: 10px;
+          left: @aside_open;
+          height: 44px;
+          padding: 0 20px;
+          line-height: 44px;
+          text-align: right;
+        }
+
+        &.collapsed {
+          flex: 0 0 @aside_collapsed;
+          width: @aside_collapsed;
+
+          .triggerMenu {
+            left: @aside_collapsed;
+          }
+        }
+
+        .menuToggle {
+          position: fixed;
+          bottom: 0;
+          width: @aside_open;
+          padding: 10px 0;
+          color: @layout-header-background;
+          text-align: center;
+          background: white;
+          border-top: 1px solid #ddd;
+          cursor: pointer;
+
+          &.menuCollapsed {
+            width: @aside_collapsed;
+          }
+        }
+
+        .fixedMenu {
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          width: inherit;
+          padding-bottom: 39px;
+          overflow-x: hidden;
+          overflow-y: auto;
+          transition: 0.5s;
+
+          &.addPadding {
+            padding-top: @header_height;
+          }
+
+          :global {
+            .ant-menu-item::after {
+              border-right: 10px solid #1890ff;
+            }
+          }
+        }
+      }
+
+      .page {
+        flex: auto;
+        width: 0;
+        margin: 10px;
+        // background: white;
+      }
+
+      .fullPage {
+        display: flex;
+        flex: auto;
+        background: white;
+
+        .wide {
+          flex: auto;
+          max-width: 1200px;
+          margin: 20px auto;
+        }
+      }
+    }
+  }
+
+  .headerTag {
+    display: inline;
+    margin-left: 20px;
+    padding: 2.4px 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+  }
+}
+
+.aboutTag {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.innerboxScroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #1890ff;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}

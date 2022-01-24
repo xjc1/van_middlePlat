@@ -1,0 +1,47 @@
+import React, { useState, useEffect } from 'react';
+import { Card, Spin } from 'antd';
+import { MATTERHANDLEGUIDES } from '@/services/api';
+import Create<%= upperName%> from './editComponents/Create<%= upperName%>';
+import initData from './initData';
+
+function Edit<%= upperName%>(props) {
+  const {
+    match: {
+      params: { id },
+    },
+  } = props;
+  const [detail, setDetail] = useState(null);
+
+  useEffect(() => {
+    if (id) {
+      getDetail(id);
+    } else {
+      setDetail({});
+    }
+  }, []);
+
+  async function getDetail(recordId) {
+    const res = await MATTERHANDLEGUIDES.getMatterHandleGuideUsingGET(recordId);
+    const newData = await initData(res);
+    setDetail(newData);
+  }
+
+  return (
+    <>
+      {detail ? (
+        <Create<%= upperName%>
+          {...props}
+          initialValues={detail}
+          editVisible
+          title={id ? '编辑<%= name%>' : '新增<%= name%>'}
+        />
+      ) : (
+        <Card style={{ width: '100%', height: '100%' }}>
+          <Spin />
+        </Card>
+      )}
+    </>
+  );
+}
+
+export default Edit<%= upperName%>;

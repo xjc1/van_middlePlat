@@ -1,0 +1,42 @@
+import { Meta,Story, Props, Preview, getComponentProps } from '@storybook/addon-docs/blocks';
+import { Input } from 'antd';
+import { TabForm, TItem } from '@/components/tis_ui';
+
+<Meta title="表单组件/标签页表单/TabForm"
+  component={TabForm}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 100 }}>{storyFn()}</div>]}
+ />
+
+# TabForm `标签页表单`
+
+TabForm 是针对复杂长表单的一个优化表单，将字段进行归类，分不同标签页。
+
+<Preview>
+  <Story name="index">
+    <TabForm
+      defaultTabKey="tab1"
+    >
+      <TabForm.Tab title="tab-1" tabKey="tab1">
+        <TItem name="username" label="用户名">
+          <Input />
+        </TItem>
+      </TabForm.Tab>
+      <TabForm.Tab title="tab-2" tabKey="tab2">
+        <TItem name="email" label="邮箱">
+          <Input />
+        </TItem>
+      </TabForm.Tab>
+    </TabForm>
+  </Story>
+</Preview>
+
+<Props
+  components={{
+    TabForm,
+    "TabForm.Tab": TabForm.Tab
+  }}
+  slot={(ctx, cmpt) => {
+    const { rows } = getComponentProps(cmpt, {}, ctx);
+    return { rows: rows.filter(({ name }) => name !== 'children')};
+  }}
+/>

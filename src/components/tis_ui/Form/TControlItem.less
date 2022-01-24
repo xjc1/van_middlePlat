@@ -1,0 +1,23 @@
+.controlItem_fixed_width {
+  :global {
+    .ant-skeleton-element {
+      width: 100%;
+
+      .ant-skeleton-input {
+        background-color: #ddd;
+      }
+    }
+
+    .ant-checkbox-wrapper {
+      color: inherit;
+    }
+  }
+
+  &.notValid {
+    :global {
+      .ant-checkbox-wrapper {
+        color: #999;
+      }
+    }
+  }
+}

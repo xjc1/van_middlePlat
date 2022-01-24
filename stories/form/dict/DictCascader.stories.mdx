@@ -1,0 +1,28 @@
+import { Meta,Story, Props, Preview, getComponentProps } from '@storybook/addon-docs/blocks';
+import { TItem } from '@/components/tis_ui'
+import { DictCascader } from '@/components/bussinessComponents';
+import { Form } from 'antd'
+
+
+<Meta title="表单组件/字典操作/DictCascader"
+  component={DictCascader}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 300 }}>{storyFn()}</div>]}
+ />
+
+# DictCascader `字典选择器`
+
+DictCascader  带回显功能的, 链接选择框
+> dict="SHSSBMSH"
+
+<Preview>
+   <Story name="index">
+    <Form>
+        <TItem name="publishDepartment"
+                label="实施部门"
+              >
+                <DictCascader dict="SHSSBMSH" showSearch placeholder="请选择实施部门" />
+              </TItem>
+      </Form>
+   </Story>
+</Preview>
+

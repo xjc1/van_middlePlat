@@ -1,0 +1,42 @@
+.rootNode {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: -10px;
+  padding: 0 15px 0 15px;
+  color: #1890ff;
+  background: #e6f7ff;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: -14px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background: #e6f7ff;
+    border-radius: 0 5px 0 50px;
+    transform: scale(0.707) rotate(45deg);
+    content: '';
+  }
+}
+
+.dictSpan {
+  display: inline-block;
+  color: white;
+
+  &:not(:last-child)::after {
+    padding: 0 5px;
+    content: '/';
+  }
+
+  :global {
+    .ant-typography-copy {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

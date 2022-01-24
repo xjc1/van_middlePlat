@@ -1,0 +1,54 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
+import { Form, Button } from 'antd';
+import { TSearchMultiTable } from '@/components/bussinessComponents';
+import { TRANSLATE } from '@/services/api';
+
+<Meta
+  title="表单组件/MultiTable/TSearchMultiTable"
+  component={TSearchMultiTable}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 300 }}>{storyFn()}</div>]}
+/>
+
+# TSearchMultiTable `带表格的查询选择框`
+
+此组件是在 `TSearchSelector` 组件的基础上再次进行了一次包装，加上了一个用于展现已选择数据的表格。
+
+<Preview>
+  <Story name="index">
+    <Form>
+      <Form.Item name="matter" label="选择事项">
+        <TSearchMultiTable
+          type="matter"
+          onTranslate={value =>
+            TRANSLATE.sceneTranslateUsingPOST({ body: value }).then(items =>
+              _.map(items, (v, k) => ({
+                key: k,
+                label: v,
+                value: v,
+              })),
+            )
+          }
+          showHeader
+        />
+      </Form.Item>
+      <Form.Item name="scenes" label="选择主题">
+        <TSearchMultiTable
+          type="scene"
+          onTranslate={value =>
+            TRANSLATE.sceneTranslateUsingPOST({ body: value }).then(items =>
+              _.map(items, (v, k) => ({
+                key: k,
+                label: v,
+                value: v,
+              })),
+            )
+          }
+        />
+      </Form.Item>
+    </Form>
+  </Story>
+</Preview>
+
+### 参数
+
+<Props of={TSearchMultiTable} />

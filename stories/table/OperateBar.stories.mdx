@@ -1,0 +1,91 @@
+import { Meta, Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { OperateBar, TTable } from "@/components/tis_ui";
+import data from '../data.js'
+
+<Meta
+  title="表格组件/OperateBar"
+  component={OperateBar}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 100 }}>{storyFn()}</div>]}
+/>
+
+# OperateBar `系列操作`
+
+当表格每一条记录的操作按钮比较多的情况下，就应该首先考虑使用该组件。
+
+<Preview>
+  <Story name="index">
+    <OperateBar
+      more={
+        <>
+          <OperateBar.Button>
+            编辑
+          </OperateBar.Button>
+          <OperateBar.Button>
+            删除
+          </OperateBar.Button>
+        </>
+      }
+    >
+      <OperateBar.Button>
+        查看
+      </OperateBar.Button>
+    </OperateBar>
+  </Story>
+</Preview>
+
+### 在表格中使用
+
+<Preview>
+  <Story name="inTable">
+    <TTable
+      dataSource={data.list}
+      columns={[
+        {
+          title: '姓名',
+          dataIndex: 'name'
+        },
+        {
+          title: '年龄',
+          dataIndex: 'age'
+        },
+        {
+          title: '操作',
+          align: 'center',
+          render: (text, record) => (
+            <OperateBar
+              more={
+                <>
+                  <OperateBar.Button
+                    onClick={() => console.log('编辑', record)}
+                  >
+                    编辑
+                  </OperateBar.Button>
+                  <OperateBar.Button
+                    danger
+                    onClick={() => console.log('删除', record)}
+                  >
+                    删除
+                  </OperateBar.Button>
+                </>
+              }
+            >
+              <OperateBar.Button
+                onClick={() => console.log('查看', record)}
+              >
+                查看
+              </OperateBar.Button>
+            </OperateBar>
+          )
+        }
+      ]}
+      pagination={{
+        defaultPageSize: 5
+      }}
+      rowKey="key"
+    />
+  </Story>
+</Preview>
+
+### OperateBar 的参数
+
+<Props of={OperateBar} />

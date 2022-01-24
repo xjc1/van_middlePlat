@@ -1,0 +1,157 @@
+.frElement {
+  position: relative;
+  min-height: 30px;
+  background: #fff;
+
+  .arrowIcon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 20px;
+    color: #1890ff;
+    font-size: 40px;
+    opacity: 0.6;
+  }
+
+  .arrowLeft {
+    .arrowIcon();
+
+    left: 0;
+    text-align: left;
+    border-left: 3px solid #1890ff;
+  }
+
+  .arrowRight {
+    .arrowIcon();
+
+    right: 0;
+    text-align: right;
+    border-right: 3px solid #1890ff;
+  }
+
+  .dragBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    cursor: move;
+  }
+
+  :global {
+    .ant-form-item-control {
+      z-index: 3;
+    }
+  }
+
+  &.dragging {
+    visibility: hidden;
+  }
+
+  &.selected {
+    background: #bae7ff !important;
+  }
+
+  &.contentWrapper {
+    padding-bottom: 25px;
+    border: 1px dotted #ddd;
+
+    :global {
+      .ant-card {
+        background: inherit;
+      }
+    }
+  }
+
+  &.widgetWrapper {
+    padding: 5px;
+    padding-bottom: 10px;
+
+    .extraOper {
+      margin-top: -20px;
+    }
+
+    &:hover {
+      background: #e6f7ff;
+    }
+  }
+
+  .extraOper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+
+    .extraOper_icon {
+      padding-left: 5px;
+      color: #40a9ff;
+      cursor: pointer;
+    }
+
+    .extraOper_warring {
+      color: #ff4d4f;
+    }
+
+    .extraOper_copy {
+      display: flex;
+      justify-content: flex-end;
+      width: 80%;
+      margin: 0;
+
+      .extraOper_name {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      :global {
+        .ant-typography-copy {
+          z-index: 5;
+        }
+      }
+    }
+
+    .extraOper_top {
+      z-index: 5;
+    }
+  }
+
+  &:hover {
+    .extraOper {
+      display: flex;
+    }
+  }
+
+  .hiddenStatus {
+    background: #fff;
+    background-image: linear-gradient(45deg, #ddd 25%, transparent 0, transparent 75%, #ddd 0),
+      linear-gradient(45deg, #ddd 25%, transparent 0, transparent 75%, #ddd 0);
+    background-position: 0 0, 15px 15px;
+    background-size: 30px 30px;
+  }
+
+  .disabledStatus {
+    background: linear-gradient(
+      45deg,
+      #999 0,
+      #999 25%,
+      transparent 25%,
+      transparent 50%,
+      #999 50%,
+      #999 75%,
+      transparent 75%,
+      transparent
+    );
+    background-size: 50px 50px;
+  }
+}

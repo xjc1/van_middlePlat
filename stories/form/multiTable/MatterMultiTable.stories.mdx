@@ -1,0 +1,25 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
+import { Form, Button } from 'antd';
+import { MatterMultiTable } from '@/components/tis_ui';
+
+<Meta
+  title="表单组件/MultiTable/MatterMultiTable"
+  component={MatterMultiTable}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 300 }}>{storyFn()}</div>]}
+/>
+
+# MatterMultiTable `带表格的添加事项的自定义控件`
+
+<Preview>
+  <Story name="index">
+    <Form>
+      <Form.Item name="matter" label="带表格的事项选择框">
+        <MatterMultiTable showHeader />
+      </Form.Item>
+    </Form>
+  </Story>
+</Preview>
+
+### 参数
+
+<Props of={MatterMultiTable} />

@@ -1,0 +1,49 @@
+.formCopy {
+  padding: 15px 20px;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+
+  .formCopy-toolbar {
+    position: relative;
+
+    .formCopy-navigation {
+      display: block;
+      margin-bottom: 20px;
+      box-shadow: 0 -1px 0 0 #e8e8e8 inset;
+
+      > div {
+        min-width: 200px;
+      }
+    }
+
+    .formCopy-btns {
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+    }
+  }
+
+  .formCopy-content-wrapper {
+    .formCopy-content-hidden {
+      min-width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .formCopy-originalMaterialList {
+      min-width: 500px;
+    }
+
+    .formCopy-matterSelectedList {
+      min-width: 500px;
+    }
+
+    .formCopy-matterMaterialList {
+      min-width: 500px;
+
+      .formCopy-material-notmatch {
+        color: red;
+      }
+    }
+  }
+}

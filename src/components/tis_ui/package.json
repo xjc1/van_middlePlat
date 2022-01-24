@@ -1,0 +1,15 @@
+{
+  "name": "@tong/tis_ui",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.10.22.206:8190/scm/tisprod/tis_ui.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,51 @@
+.subsystem {
+
+  .subsystem-header {
+    margin: 10px 0;
+    padding: 16px 24px;
+    text-align: right;
+    background-color: white;
+  }
+
+  .subsystem-wrap {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+
+    &.subsystem-diabled {
+      background-color: #ddd;
+
+      table, th {
+        background-color: #ddd;
+      }
+    }
+
+    .subsystem-config {
+      .subsystem-pageConfig {
+        display: flex;
+        margin-top: 20px;
+
+        .subsystem-preImg {
+          width: 300px;
+
+        }
+
+        .subsystem-children {
+          flex: 1;
+
+          .subsystem-childrenHeader {
+            display: flex;
+
+            .subsystem-configTitle {
+              padding-left: 10px;
+              border-left: 3px solid #1f86f0;
+            }
+          }
+
+        }
+      }
+
+    }
+
+  }
+}
+

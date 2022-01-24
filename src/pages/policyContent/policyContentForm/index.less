@@ -1,0 +1,64 @@
+.cardsLayout {
+  .formCard {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.row-item {
+  margin-bottom: 24px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+
+  .row-item-label {
+    text-align: right;
+  }
+}
+
+.tips {
+  position: relative;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #e6f7ff;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background: #1890ff;
+    content: '';
+  }
+}
+
+.similar-policy-operate {
+  margin-right: 10px;
+  color: #1890ff;
+  cursor: pointer;
+
+  &.disabled {
+    color: #ddd;
+    cursor: default;
+  }
+
+  &.connect {
+    margin-left: 15px;
+  }
+}
+
+.policyGraphPanel {
+  height: 500px;
+
+  .detailPanel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 200px;
+  }
+}

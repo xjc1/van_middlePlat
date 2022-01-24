@@ -1,0 +1,1750 @@
+[
+  {
+    "_id": "5b7fbc379e38d679a2eb060b",
+    "name": "\u6211\u662f\u672c\u5e02\u5c45\u6c11\uff0c\u6211\u8981\u51fa\u56fd",
+    "matters": [
+      {
+        "category": "",
+        "no": 1,
+        "id": 512,
+        "cue": "",
+        "_id": "5ba60ca9740cd6676fd450fd",
+        "mattercode": "a1f8a3ef-18b4-45f9-85d6-c77d026b69a9",
+        "name": "\u666e\u901a\u62a4\u7167\u7b7e\u53d1",
+        "title": "\u5173\u4e8e\u51fa\u5165\u5883\u4e8b\u9879\u7684\u7533\u8bf7\u5ba1\u6279",
+        "code": null,
+        "department": "SHGASH",
+        "term": "7\u5929",
+        "address": "\u5e02\u516c\u5b89\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u5c40\uff08\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\uff09\u3001\u81ea\u8d38\u533a\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u652f\u961f\u3001\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u529e\u516c\u5ba4\u63a5\u6536\u7533\u8bf7\uff08\u534e\u4fa8\u53ca\u519b\u4eba\u5fc5\u987b\u5728\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\u529e\u7406\uff09&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "accept_time": "\u5e02\u5c40\uff1a \u5468\u4e00\uff5e\u5468\u516d 9:00\uff5e17:00\uff08\u6cd5\u5b9a\u8282\u5047\u65e5\u9664\u5916\uff09\uff1b\u5206\u5c40\uff1a\u8be6\u89c1\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u529e\u4e8b\u5927\u5385\u5bf9\u5916\u516c\u544a\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "phone": "021-28951900\u3001021-12345",
+        "dourl": null,
+        "regions": "SH00SH",
+        "executor": "SHGASH",
+        "object": "\u4e2a\u4eba#",
+        "lawbasis": "\u4e00\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u62a4\u7167\u6cd5\u300b\uff082006\u5e744\u670829\u65e5\u7b2c\u5341\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e00\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2007\u5e741\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e94\u6761   \u516c\u6c11\u56e0\u524d\u5f80\u5916\u56fd\u5b9a\u5c45\u3001\u63a2\u4eb2\u3001\u5b66\u4e60\u3001\u5c31\u4e1a\u3001\u65c5\u884c\u3001\u4ece\u4e8b\u5546\u52a1\u6d3b\u52a8\u7b49\u975e\u516c\u52a1\u539f\u56e0\u51fa\u56fd\u7684\uff0c\u7531\u672c\u4eba\u5411\u6237\u7c4d\u6240\u5728\u5730\u7684\u53bf\u7ea7\u4ee5\u4e0a\u5730\u65b9\u4eba\u6c11\u653f\u5e9c\u516c\u5b89\u673a\u5173\u51fa\u5165\u5883\u7ba1\u7406\u673a\u6784\u7533\u8bf7\u666e\u901a\u62a4\u7167\u3002<br/>\u4e8c\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u51fa\u5883\u5165\u5883\u7ba1\u7406\u6cd5\u300b\uff082012\u5e746\u670830\u65e5\u7531\u7b2c\u5341\u4e00\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e03\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2013\u5e747\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e5d\u6761  \u4e2d\u56fd\u516c\u6c11\u51fa\u5883\u5165\u5883\uff0c\u5e94\u5f53\u4f9d\u6cd5\u7533\u8bf7\u529e\u7406\u62a4\u7167\u6216\u8005\u5176\u4ed6\u65c5\u884c\u8bc1\u4ef6\u3002",
+        "lawbasisArr": [],
+        "fileimg": "/group1/M00/20/1A/rBJ9F15g0g-AQaPBAAC_Hq7_Rrw218.png\" /></p>",
+        "tongID": 304909,
+        "r-material": [
+          {
+            "id": "5d538d8f1188e16f7bb36690"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36691"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36692"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36693"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36694"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36695"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36696"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36697"
+          },
+          {
+            "id": "5d538d8f1188e16f7bb36698"
+          }
+        ],
+        "material": [
+          {
+            "id": "5ba61215740cd6676fd4549f"
+          },
+          {
+            "id": "5ba6133b740cd6676fd454a0"
+          },
+          {
+            "id": "5cb7dea31188e110025b145b"
+          },
+          {
+            "id": "5cb7def51188e110025b145f"
+          },
+          {
+            "id": "5cb7e0641188e110025b146a"
+          },
+          {
+            "id": "5cb7e0931188e110025b146b"
+          },
+          {
+            "id": "5cb7e0e31188e110025b146e"
+          },
+          {
+            "id": "5cb7e1041188e110025b1470"
+          },
+          {
+            "id": "5cb7e1e41188e110025b1474"
+          },
+          {
+            "id": "5cb7e20a1188e110025b1476"
+          },
+          {
+            "id": "5cb7e2c21188e110025b1477"
+          },
+          {
+            "id": "5cb7e3811188e110025b1481"
+          },
+          {
+            "id": "5cb7e3a51188e110025b1483"
+          }
+        ],
+        "disassembly": 0,
+        "sub_item_code": "",
+        "material_require": "1\u3001\u9996\u6b21\u7533\u9886\u62a4\u7167\u7684\uff0c\u7533\u8bf7\u4eba\u987b\u4eb2\u81ea\u529e\u7406\u3002\u672a\u6ee1\u5341\u516d\u5468\u5c81\u7684\u7533\u8bf7\u4eba\u5e94\u5f53\u7531\u76d1\u62a4\u4eba\u966a\u540c\u7533\u8bf7\u3002\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c\u7684\uff0c\u53ef\u4ee5\u59d4\u6258\u4ed6\u4eba\u966a\u540c\uff0c\u9664\u63d0\u4ea4\u89c4\u5b9a\u7684\u76f8\u5e94\u6750\u6599\u5916\uff0c\u966a\u540c\u4eba\u8fd8\u5e94\u5f53\u63d0\u4ea4\u672c\u4eba\u7684\u5c45\u6c11\u8eab\u4efd\u8bc1\u4ee5\u53ca\u76d1\u62a4\u4eba\u7684\u59d4\u6258\u4e66\u3002<br/>2\u3001\u5341\u516d\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7684\u7533\u8bf7\u4eba\u7533\u8bf7\u62a4\u7167\u7684\uff0c\u5747\u5e94\u5f53\u91c7\u96c6\u6216\u8005\u6838\u9a8c\u6307\u7eb9\uff0c\u56e0\u6307\u7eb9\u7f3a\u5931\u3001\u635f\u574f\u539f\u56e0\u65e0\u6cd5\u91c7\u96c6\u6307\u7eb9\u9664\u5916;\u5bf9\u5341\u516d\u5468\u5c81\u4ee5\u4e0b\u7684\uff0c\u6839\u636e\u76d1\u62a4\u4eba\u7684\u610f\u89c1\u786e\u5b9a\u662f\u5426\u91c7\u96c6\u6307\u7eb9\u3002<br/>3\u30017\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7533\u8bf7\u4eba\u529e\u7406\u666e\u901a\u62a4\u7167\u987b\u5f53\u573a\u91c7\u96c6\u4e2a\u4eba\u7b7e\u540d\u3002",
+        "ZWDTSW_CATE": [],
+        "stItemRegion": "SH00SH",
+        "stOrgCode": "SHGASH",
+        "main_matter": 0,
+        "deleteFlag": 0,
+        "updateTime": {
+          "$date": 1583747077410
+        },
+        "objectType": "DXLX0001001",
+        "operationTime": {
+          "$date": 1571407119663
+        },
+        "recommendTag": [],
+        "type": [],
+        "uniqueCoding": "SH00SH310100192016009",
+        "subnameold": "\u9996\u6b21\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "sub_item_name": "\u9996\u6b21\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "matter_type": "\u5ba1\u6279",
+        "mainitem_id": 310100192004,
+        "colloquial_name": "\u672c\u5e02\u5c45\u6c11\u7533\u8bf7\u62a4\u7167",
+        "status": 1,
+        "frequency": 2307,
+        "rankingCondition": [],
+        "restrictiveCondition": [
+          {
+            "id": "5be94a5b740cd67ed63bead5"
+          },
+          {
+            "id": "5bea32ee740cd67ed63bfa0a"
+          }
+        ],
+        "isNet": 1,
+        "source": 0,
+        "stTenCode": "0100195000-01-00",
+        "restrictiveConditionLegalPerson": [
+          {
+            "id": "5c358da0e5607f5dead03106"
+          }
+        ],
+        "tuningWord": "",
+        "clientType": [1, 6, 8, 7, 3],
+        "appUrl": "",
+        "applyNotice": "",
+        "applyNoticeFileInfo": "",
+        "applyNoticeFileName": "",
+        "legalBasisNotice": "",
+        "legalBasisNoticeFileInfo": "",
+        "legalBasisNoticeFileName": "",
+        "limitNotice": "",
+        "limitNoticeFileInfo": "",
+        "limitNoticeFileName": "",
+        "terminalUrl": "",
+        "wechatUrl": "",
+        "anticipate_day": "",
+        "charge_basis": "",
+        "charge_flag": "",
+        "service_day": "",
+        "service_mode": "",
+        "banner": "",
+        "relation_match_policy": [],
+        "relation_match_project": [],
+        "relation_match_scene": [],
+        "relation_match_service": [],
+        "preMatter": []
+      },
+      {
+        "category": "",
+        "no": 2,
+        "id": 274,
+        "cue": "",
+        "_id": "5ba60c8a740cd6676fd448e1",
+        "mattercode": "53d3acdd-7d08-4d23-a743-f7845c87462b",
+        "name": "\u666e\u901a\u62a4\u7167\u7b7e\u53d1",
+        "title": "\u5173\u4e8e\u51fa\u5165\u5883\u4e8b\u9879\u7684\u7533\u8bf7\u5ba1\u6279",
+        "code": null,
+        "department": "SHGASH",
+        "term": "7\u5929",
+        "address": "\u5e02\u516c\u5b89\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u5c40\uff08\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\uff09\u3001\u81ea\u8d38\u533a\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u652f\u961f\u3001\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u529e\u516c\u5ba4\u63a5\u6536\u7533\u8bf7\uff08\u534e\u4fa8\u53ca\u519b\u4eba\u5fc5\u987b\u5728\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\u529e\u7406\uff09\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "accept_time": "\u5e02\u5c40\uff1a \u5468\u4e00\uff5e\u5468\u516d 9:00\uff5e17:00\uff08\u6cd5\u5b9a\u8282\u5047\u65e5\u9664\u5916\uff09\uff1b\u5206\u5c40\uff1a\u8be6\u89c1\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u529e\u4e8b\u5927\u5385\u5bf9\u5916\u516c\u544a\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "phone": "021-28951900\u3001021-12345",
+        "dourl": null,
+        "regions": "SH00SH",
+        "executor": "SHGASH",
+        "object": "\u4e2a\u4eba#",
+        "lawbasis": "\u4e00\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u62a4\u7167\u6cd5\u300b\uff082006\u5e744\u670829\u65e5\u7b2c\u5341\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e00\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2007\u5e741\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e94\u6761  \u516c\u6c11\u56e0\u524d\u5f80\u5916\u56fd\u5b9a\u5c45\u3001\u63a2\u4eb2\u3001\u5b66\u4e60\u3001\u5c31\u4e1a\u3001\u65c5\u884c\u3001\u4ece\u4e8b\u5546\u52a1\u6d3b\u52a8\u7b49\u975e\u516c\u52a1\u539f\u56e0\u51fa\u56fd\u7684\uff0c\u7531\u672c\u4eba\u5411\u6237\u7c4d\u6240\u5728\u5730\u7684\u53bf\u7ea7\u4ee5\u4e0a\u5730\u65b9\u4eba\u6c11\u653f\u5e9c\u516c\u5b89\u673a\u5173\u51fa\u5165\u5883\u7ba1\u7406\u673a\u6784\u7533\u8bf7\u666e\u901a\u62a4\u7167\u3002<br/>\u4e8c\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u51fa\u5883\u5165\u5883\u7ba1\u7406\u6cd5\u300b\uff082012\u5e746\u670830\u65e5\u7531\u7b2c\u5341\u4e00\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e03\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2013\u5e747\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e5d\u6761   \u4e2d\u56fd\u516c\u6c11\u51fa\u5883\u5165\u5883\uff0c\u5e94\u5f53\u4f9d\u6cd5\u7533\u8bf7\u529e\u7406\u62a4\u7167\u6216\u8005\u5176\u4ed6\u65c5\u884c\u8bc1\u4ef6\u3002",
+        "lawbasisArr": [],
+        "fileimg": "/group1/M00/19/38/rBJ9F15cyyeAQs5LAAC_Hq7_Rrw861.png\" /></p>",
+        "tongID": 303820,
+        "r-material": [
+          {
+            "id": "5d5e0bfc1188e11730996e88"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e89"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e8a"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e8b"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e8c"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e8d"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e8e"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e8f"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e90"
+          },
+          {
+            "id": "5d5e0bfc1188e11730996e91"
+          }
+        ],
+        "material": [
+          {
+            "id": "5ba6f0e2740cd6676fd454bb"
+          },
+          {
+            "id": "5ba6f0fe740cd6676fd454bc"
+          },
+          {
+            "id": "5cb80bcf1188e110025b148c"
+          },
+          {
+            "id": "5cb80c0c1188e110025b148e"
+          },
+          {
+            "id": "5cb80c5a1188e110025b1490"
+          },
+          {
+            "id": "5cb80c721188e110025b1491"
+          },
+          {
+            "id": "5cb80ca01188e110025b1492"
+          },
+          {
+            "id": "5cb80cb71188e110025b1493"
+          },
+          {
+            "id": "5cb80ce11188e110025b1494"
+          },
+          {
+            "id": "5cb80d091188e110025b1495"
+          },
+          {
+            "id": "5cb80d261188e110025b1496"
+          },
+          {
+            "id": "5cb80d531188e110025b1497"
+          },
+          {
+            "id": "5cb80d7b1188e110025b1498"
+          },
+          {
+            "id": "5cb80d9c1188e110025b1499"
+          }
+        ],
+        "disassembly": 0,
+        "sub_item_code": "",
+        "material_require": "1\u3001\u9996\u6b21\u7533\u9886\u3001\u6362\u53d1\u3001\u8865\u53d1\u3001\u5931\u6548\u91cd\u65b0\u7533\u9886\u62a4\u7167\u7684\uff0c\u7533\u8bf7\u4eba\u987b\u4eb2\u81ea\u529e\u7406\u3002\u672a\u6ee1\u5341\u516d\u5468\u5c81\u7684\u7533\u8bf7\u4eba\u5e94\u5f53\u7531\u76d1\u62a4\u4eba\u966a\u540c\u7533\u8bf7\u3002\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c\u7684\uff0c\u53ef\u4ee5\u59d4\u6258\u4ed6\u4eba\u966a\u540c\uff0c\u9664\u63d0\u4ea4\u89c4\u5b9a\u7684\u76f8\u5e94\u6750\u6599\u5916\uff0c\u966a\u540c\u4eba\u8fd8\u5e94\u5f53\u63d0\u4ea4\u672c\u4eba\u7684\u5c45\u6c11\u8eab\u4efd\u8bc1\u4ee5\u53ca\u76d1\u62a4\u4eba\u7684\u59d4\u6258\u4e66\u3002<br/>2\u3001\u5341\u516d\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7684\u7533\u8bf7\u4eba\u7533\u8bf7\u62a4\u7167\u7684\uff0c\u5747\u5e94\u5f53\u91c7\u96c6\u6216\u8005\u6838\u9a8c\u6307\u7eb9\uff0c\u56e0\u6307\u7eb9\u7f3a\u5931\u3001\u635f\u574f\u539f\u56e0\u65e0\u6cd5\u91c7\u96c6\u6307\u7eb9\u9664\u5916;\u5bf9\u5341\u516d\u5468\u5c81\u4ee5\u4e0b\u7684\uff0c\u6839\u636e\u76d1\u62a4\u4eba\u7684\u610f\u89c1\u786e\u5b9a\u662f\u5426\u91c7\u96c6\u6307\u7eb9\u3002<br/>3\u30017\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7533\u8bf7\u4eba\u987b\u5f53\u573a\u91c7\u96c6\u4e2a\u4eba\u7b7e\u540d\u3002<br/>4\u3001\u7533\u8bf7\u6362\u53d1\u51fa\u5165\u5883\u8bc1\u4ef6\u7684\uff0c\u539f\u6301\u8bc1\u987b\u4e00\u5e76\u9012\u4ea4\uff0c\u7531\u53d7\u7406\u6c11\u8b66\u6838\u9a8c\u540e\uff0c\u5f53\u573a\u526a\u89d2\u53d1\u8fd8\u3002<br/>5\u3001\u5982\u679c\u7533\u8bf7\u4eba\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\uff0c\u987b\u63d0\u4ea4\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u3002",
+        "ZWDTSW_CATE": [],
+        "stItemRegion": "SH00SH",
+        "stOrgCode": "SHGASH",
+        "main_matter": 0,
+        "deleteFlag": 0,
+        "updateTime": {
+          "$date": 1583229865859
+        },
+        "objectType": "DXLX0001001",
+        "operationTime": {
+          "$date": 1568988305552
+        },
+        "recommendTag": [
+          {
+            "code": "FWTJ0010152"
+          }
+        ],
+        "type": [],
+        "uniqueCoding": "SH00SH310100192016003",
+        "subnameold": "\u6362\u53d1\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "sub_item_name": "\u6362\u53d1\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "matter_type": "\u5ba1\u6279",
+        "mainitem_id": 310100192004,
+        "colloquial_name": "\u672c\u5e02\u5c45\u6c11\u6362\u53d1\u62a4\u7167",
+        "status": 1,
+        "frequency": 2307,
+        "rankingCondition": [],
+        "restrictiveCondition": [
+          {
+            "id": "5be94a5b740cd67ed63bead5"
+          },
+          {
+            "id": "5bea350b740cd67ed63bfae5"
+          }
+        ],
+        "isNet": 1,
+        "source": 0,
+        "stTenCode": "0100195000-01-00",
+        "restrictiveConditionLegalPerson": [
+          {
+            "id": "5c358da0e5607f5dead03106"
+          }
+        ],
+        "clientType": [1, 6, 8, 7, 3],
+        "anticipate_day": "",
+        "appUrl": "",
+        "charge_basis": "",
+        "charge_flag": "",
+        "service_day": "",
+        "service_mode": "",
+        "terminalUrl": "",
+        "wechatUrl": "",
+        "applyNotice": "",
+        "applyNoticeFileInfo": "",
+        "applyNoticeFileName": "",
+        "banner": "",
+        "legalBasisNotice": "",
+        "legalBasisNoticeFileInfo": "",
+        "legalBasisNoticeFileName": "",
+        "limitNotice": "",
+        "limitNoticeFileInfo": "",
+        "limitNoticeFileName": "",
+        "relation_match_policy": [],
+        "relation_match_project": [],
+        "relation_match_scene": [],
+        "relation_match_service": [],
+        "tuningWord": ""
+      },
+      {
+        "category": "",
+        "no": 3,
+        "id": 82,
+        "cue": "",
+        "_id": "5ba60c6e740cd6676fd44184",
+        "mattercode": "9f96c194-0cb4-4e9d-9f3e-1105bbd10812",
+        "name": "\u666e\u901a\u62a4\u7167\u7b7e\u53d1",
+        "title": "\u5173\u4e8e\u51fa\u5165\u5883\u4e8b\u9879\u7684\u7533\u8bf7\u5ba1\u6279",
+        "code": null,
+        "department": "SHGASH",
+        "term": "7\u5de5\u4f5c\u65e5",
+        "address": "\u5e02\u516c\u5b89\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u5c40\uff08\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\uff09\u3001\u81ea\u8d38\u533a\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u652f\u961f\u3001\u5404\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u529e\u516c\u5ba4\u63a5\u6536\u7533\u8bf7\u3002\uff08\u534e\u4fa8\u53ca\u519b\u4eba\u5fc5\u987b\u5728\u5e02\u5c40(\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7)\u529e\u7406\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "accept_time": "\u5e02\u5c40\uff1a \u5468\u4e00\uff5e\u5468\u516d 9:00\uff5e17:00\uff08\u6cd5\u5b9a\u8282\u5047\u65e5\u9664\u5916\uff09\uff1b\u5206\u5c40\uff1a\u8be6\u89c1\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u529e\u4e8b\u5927\u5385\u5bf9\u5916\u516c\u544a\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "phone": "021-28951900\u3001021-12345",
+        "dourl": null,
+        "regions": "SH00SH",
+        "executor": "SHGASH",
+        "object": "\u4e2a\u4eba#",
+        "lawbasis": "\u4e00\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u62a4\u7167\u6cd5\u300b\uff082006\u5e744\u670829\u65e5\u7b2c\u5341\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e00\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2007\u5e741\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e94\u6761   \u516c\u6c11\u56e0\u524d\u5f80\u5916\u56fd\u5b9a\u5c45\u3001\u63a2\u4eb2\u3001\u5b66\u4e60\u3001\u5c31\u4e1a\u3001\u65c5\u884c\u3001\u4ece\u4e8b\u5546\u52a1\u6d3b\u52a8\u7b49\u975e\u516c\u52a1\u539f\u56e0\u51fa\u56fd\u7684\uff0c\u7531\u672c\u4eba\u5411\u6237\u7c4d\u6240\u5728\u5730\u7684\u53bf\u7ea7\u4ee5\u4e0a\u5730\u65b9\u4eba\u6c11\u653f\u5e9c\u516c\u5b89\u673a\u5173\u51fa\u5165\u5883\u7ba1\u7406\u673a\u6784\u7533\u8bf7\u666e\u901a\u62a4\u7167\u3002<br/>\u4e8c\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u51fa\u5883\u5165\u5883\u7ba1\u7406\u6cd5\u300b\uff082012\u5e746\u670830\u65e5\u7531\u7b2c\u5341\u4e00\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e03\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2013\u5e747\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e5d\u6761  \u4e2d\u56fd\u516c\u6c11\u51fa\u5883\u5165\u5883\uff0c\u5e94\u5f53\u4f9d\u6cd5\u7533\u8bf7\u529e\u7406\u62a4\u7167\u6216\u8005\u5176\u4ed6\u65c5\u884c\u8bc1\u4ef6\u3002",
+        "lawbasisArr": [],
+        "fileimg": "/group1/M00/20/1B/rBJ9F15g0heAfmWsAAC_Hq7_Rrw217.png\" /></p>",
+        "tongID": 304913,
+        "r-material": [
+          {
+            "id": "5d5386131188e16f7bb32624"
+          },
+          {
+            "id": "5d5386131188e16f7bb32625"
+          },
+          {
+            "id": "5d5386131188e16f7bb32626"
+          },
+          {
+            "id": "5d5386131188e16f7bb32627"
+          },
+          {
+            "id": "5d5386131188e16f7bb32628"
+          },
+          {
+            "id": "5d5386131188e16f7bb32629"
+          },
+          {
+            "id": "5d5386131188e16f7bb3262a"
+          },
+          {
+            "id": "5d5386131188e16f7bb3262b"
+          },
+          {
+            "id": "5d5386131188e16f7bb3262c"
+          }
+        ],
+        "material": [
+          {
+            "id": "5ba6f43d740cd6676fd454d4"
+          },
+          {
+            "id": "5ba6f45a740cd6676fd454d5"
+          },
+          {
+            "id": "5cb80eaa1188e110025b149a"
+          },
+          {
+            "id": "5cb80ee01188e110025b149c"
+          },
+          {
+            "id": "5cb80f161188e110025b149e"
+          },
+          {
+            "id": "5cb80f321188e110025b149f"
+          },
+          {
+            "id": "5cb80f621188e110025b14a0"
+          },
+          {
+            "id": "5cb80f7f1188e110025b14a1"
+          },
+          {
+            "id": "5cb80fa11188e110025b14a2"
+          },
+          {
+            "id": "5cb80fbf1188e110025b14a3"
+          },
+          {
+            "id": "5cb80fe81188e110025b14a4"
+          },
+          {
+            "id": "5cb810061188e110025b14a5"
+          },
+          {
+            "id": "5cb810241188e110025b14a6"
+          }
+        ],
+        "disassembly": 0,
+        "sub_item_code": "",
+        "material_require": "1\u3001\u9996\u6b21\u7533\u9886\u3001\u6362\u53d1\u3001\u8865\u53d1\u3001\u5931\u6548\u91cd\u65b0\u7533\u9886\u62a4\u7167\u7684\uff0c\u7533\u8bf7\u4eba\u987b\u4eb2\u81ea\u529e\u7406\u3002\u672a\u6ee1\u5341\u516d\u5468\u5c81\u7684\u7533\u8bf7\u4eba\u5e94\u5f53\u7531\u76d1\u62a4\u4eba\u966a\u540c\u7533\u8bf7\u3002\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c\u7684\uff0c\u53ef\u4ee5\u59d4\u6258\u4ed6\u4eba\u966a\u540c\uff0c\u9664\u63d0\u4ea4\u89c4\u5b9a\u7684\u76f8\u5e94\u6750\u6599\u5916\uff0c\u966a\u540c\u4eba\u8fd8\u5e94\u5f53\u63d0\u4ea4\u672c\u4eba\u7684\u5c45\u6c11\u8eab\u4efd\u8bc1\u4ee5\u53ca\u76d1\u62a4\u4eba\u7684\u59d4\u6258\u4e66\u3002<br/>2\u3001\u5341\u516d\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7684\u7533\u8bf7\u4eba\u7533\u8bf7\u62a4\u7167\u7684\uff0c\u5747\u5e94\u5f53\u91c7\u96c6\u6216\u8005\u6838\u9a8c\u6307\u7eb9\uff0c\u56e0\u6307\u7eb9\u7f3a\u5931\u3001\u635f\u574f\u539f\u56e0\u65e0\u6cd5\u91c7\u96c6\u6307\u7eb9\u9664\u5916;\u5bf9\u5341\u516d\u5468\u5c81\u4ee5\u4e0b\u7684\uff0c\u6839\u636e\u76d1\u62a4\u4eba\u7684\u610f\u89c1\u786e\u5b9a\u662f\u5426\u91c7\u96c6\u6307\u7eb9\u3002<br/>3\u30017\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7533\u8bf7\u4eba\u987b\u5f53\u573a\u91c7\u96c6\u4e2a\u4eba\u7b7e\u540d\u3002<br/>4\u3001\u7533\u8bf7\u6362\u53d1\u51fa\u5165\u5883\u8bc1\u4ef6\u7684\uff0c\u539f\u6301\u8bc1\u987b\u4e00\u5e76\u9012\u4ea4\uff0c\u7531\u53d7\u7406\u6c11\u8b66\u6838\u9a8c\u540e\uff0c\u5f53\u573a\u526a\u89d2\u53d1\u8fd8\u3002<br/>5\u3001\u5982\u679c\u7533\u8bf7\u4eba\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\uff0c\u987b\u63d0\u4ea4\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u3002",
+        "ZWDTSW_CATE": [],
+        "stItemRegion": "SH00SH",
+        "stOrgCode": "SHGASH",
+        "main_matter": 0,
+        "deleteFlag": 0,
+        "updateTime": {
+          "$date": 1583747077410
+        },
+        "objectType": "DXLX0001001",
+        "operationTime": {
+          "$date": 1568988058183
+        },
+        "recommendTag": [
+          {
+            "code": "FWTJ0010152"
+          }
+        ],
+        "type": [],
+        "uniqueCoding": "SH00SH310100192016005",
+        "subnameold": "\u8865\u53d1\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "sub_item_name": "\u8865\u53d1\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "matter_type": "\u5ba1\u6279",
+        "mainitem_id": 310100192004,
+        "colloquial_name": "\u672c\u5e02\u5c45\u6c11\u8865\u529e\u62a4\u7167",
+        "status": 1,
+        "frequency": 2307,
+        "rankingCondition": [],
+        "restrictiveCondition": [
+          {
+            "id": "5be94a5b740cd67ed63bead5"
+          },
+          {
+            "id": "5bea350b740cd67ed63bfae5"
+          }
+        ],
+        "isNet": 1,
+        "source": 0,
+        "stTenCode": "0100195000-01-00",
+        "restrictiveConditionLegalPerson": [
+          {
+            "id": "5c358da0e5607f5dead03106"
+          }
+        ],
+        "clientType": [1, 6, 8, 7, 3],
+        "anticipate_day": "",
+        "appUrl": "",
+        "charge_basis": "",
+        "charge_flag": "",
+        "service_day": "",
+        "service_mode": "",
+        "terminalUrl": "",
+        "wechatUrl": "",
+        "applyNotice": "",
+        "applyNoticeFileInfo": "",
+        "applyNoticeFileName": "",
+        "banner": "",
+        "legalBasisNotice": "",
+        "legalBasisNoticeFileInfo": "",
+        "legalBasisNoticeFileName": "",
+        "limitNotice": "",
+        "limitNoticeFileInfo": "",
+        "limitNoticeFileName": "",
+        "relation_match_policy": [],
+        "relation_match_project": [],
+        "relation_match_scene": [],
+        "relation_match_service": [],
+        "tuningWord": ""
+      },
+      {
+        "category": "",
+        "no": 4,
+        "id": 268,
+        "cue": "",
+        "_id": "5ba60c89740cd6676fd448a4",
+        "mattercode": "b010f925-5503-4551-9d8c-7407a1e4ed65",
+        "name": "\u666e\u901a\u62a4\u7167\u7b7e\u53d1",
+        "title": "\u5173\u4e8e\u51fa\u5165\u5883\u4e8b\u9879\u7684\u7533\u8bf7\u5ba1\u6279",
+        "code": null,
+        "department": "SHGASH",
+        "term": "7\u5929",
+        "address": "\u5e02\u5c40\uff08\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\uff09\u3001\u81ea\u8d38\u533a\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u652f\u961f\u3001\u5404\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u529e\u516c\u5ba4\u63a5\u6536\u7533\u8bf7\uff08\u534e\u4fa8\u53ca\u519b\u4eba\u5fc5\u987b\u5728\u5e02\u5c40(\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7)\u529e\u7406\uff09\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "accept_time": "\u5e02\u5c40\uff1a \u5468\u4e00\uff5e\u5468\u516d 9:00\uff5e17:00\uff08\u6cd5\u5b9a\u8282\u5047\u65e5\u9664\u5916\uff09\uff1b\u5206\u5c40\uff1a\u8be6\u89c1\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u529e\u4e8b\u5927\u5385\u5bf9\u5916\u516c\u544a\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "phone": "021-28951900\u3001021-12345",
+        "dourl": null,
+        "regions": "SH00SH",
+        "executor": "SHGASH",
+        "object": "\u4e2a\u4eba#",
+        "lawbasis": "\u4e00\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u62a4\u7167\u6cd5\u300b\uff082006\u5e744\u670829\u65e5\u7b2c\u5341\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e00\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2007\u5e741\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e94\u6761  \u516c\u6c11\u56e0\u524d\u5f80\u5916\u56fd\u5b9a\u5c45\u3001\u63a2\u4eb2\u3001\u5b66\u4e60\u3001\u5c31\u4e1a\u3001\u65c5\u884c\u3001\u4ece\u4e8b\u5546\u52a1\u6d3b\u52a8\u7b49\u975e\u516c\u52a1\u539f\u56e0\u51fa\u56fd\u7684\uff0c\u7531\u672c\u4eba\u5411\u6237\u7c4d\u6240\u5728\u5730\u7684\u53bf\u7ea7\u4ee5\u4e0a\u5730\u65b9\u4eba\u6c11\u653f\u5e9c\u516c\u5b89\u673a\u5173\u51fa\u5165\u5883\u7ba1\u7406\u673a\u6784\u7533\u8bf7\u666e\u901a\u62a4\u7167\u3002<br/>\u4e8c\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u51fa\u5883\u5165\u5883\u7ba1\u7406\u6cd5\u300b\uff082012\u5e746\u670830\u65e5\u7531\u7b2c\u5341\u4e00\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e03\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2013\u5e747\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e5d\u6761  \u4e2d\u56fd\u516c\u6c11\u51fa\u5883\u5165\u5883\uff0c\u5e94\u5f53\u4f9d\u6cd5\u7533\u8bf7\u529e\u7406\u62a4\u7167\u6216\u8005\u5176\u4ed6\u65c5\u884c\u8bc1\u4ef6\u3002",
+        "lawbasisArr": [],
+        "fileimg": "/group1/M00/20/1B/rBJ9F15g0haAQjV2AAC_Hq7_Rrw321.png\" /></p>",
+        "tongID": 304912,
+        "r-material": [
+          {
+            "id": "5d5382b81188e16f7bb30872"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30873"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30874"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30875"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30876"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30877"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30878"
+          },
+          {
+            "id": "5d5382b81188e16f7bb30879"
+          },
+          {
+            "id": "5d5382b81188e16f7bb3087a"
+          },
+          {
+            "id": "5d5382b81188e16f7bb3087b"
+          }
+        ],
+        "material": [
+          {
+            "id": "5ba6f623740cd6676fd454e6"
+          },
+          {
+            "id": "5ba6f63f740cd6676fd454e7"
+          },
+          {
+            "id": "5cb810be1188e110025b14a7"
+          },
+          {
+            "id": "5cb810ef1188e110025b14a9"
+          },
+          {
+            "id": "5cb811231188e110025b14ab"
+          },
+          {
+            "id": "5cb8113d1188e110025b14ac"
+          },
+          {
+            "id": "5cb811561188e110025b14ad"
+          },
+          {
+            "id": "5cb8116e1188e110025b14ae"
+          },
+          {
+            "id": "5cb811911188e110025b14af"
+          },
+          {
+            "id": "5cb811b91188e110025b14b0"
+          },
+          {
+            "id": "5cb811d81188e110025b14b1"
+          },
+          {
+            "id": "5cb811ff1188e110025b14b2"
+          },
+          {
+            "id": "5cb8121b1188e110025b14b3"
+          },
+          {
+            "id": "5cb812391188e110025b14b4"
+          }
+        ],
+        "disassembly": 0,
+        "sub_item_code": "",
+        "material_require": "1\u3001\u9996\u6b21\u7533\u9886\u3001\u6362\u53d1\u3001\u8865\u53d1\u3001\u5931\u6548\u91cd\u65b0\u7533\u9886\u62a4\u7167\u7684\uff0c\u7533\u8bf7\u4eba\u987b\u4eb2\u81ea\u529e\u7406\u3002\u672a\u6ee1\u5341\u516d\u5468\u5c81\u7684\u7533\u8bf7\u4eba\u5e94\u5f53\u7531\u76d1\u62a4\u4eba\u966a\u540c\u7533\u8bf7\u3002\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c\u7684\uff0c\u53ef\u4ee5\u59d4\u6258\u4ed6\u4eba\u966a\u540c\uff0c\u9664\u63d0\u4ea4\u89c4\u5b9a\u7684\u76f8\u5e94\u6750\u6599\u5916\uff0c\u966a\u540c\u4eba\u8fd8\u5e94\u5f53\u63d0\u4ea4\u672c\u4eba\u7684\u5c45\u6c11\u8eab\u4efd\u8bc1\u4ee5\u53ca\u76d1\u62a4\u4eba\u7684\u59d4\u6258\u4e66\u3002<br/>2\u3001\u5341\u516d\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7684\u7533\u8bf7\u4eba\u7533\u8bf7\u62a4\u7167\u7684\uff0c\u5747\u5e94\u5f53\u91c7\u96c6\u6216\u8005\u6838\u9a8c\u6307\u7eb9\uff0c\u56e0\u6307\u7eb9\u7f3a\u5931\u3001\u635f\u574f\u539f\u56e0\u65e0\u6cd5\u91c7\u96c6\u6307\u7eb9\u9664\u5916;\u5bf9\u5341\u516d\u5468\u5c81\u4ee5\u4e0b\u7684\uff0c\u6839\u636e\u76d1\u62a4\u4eba\u7684\u610f\u89c1\u786e\u5b9a\u662f\u5426\u91c7\u96c6\u6307\u7eb9\u3002<br/>3\u30017\u5468\u5c81\uff08\u542b\uff09\u4ee5\u4e0a\u7533\u8bf7\u4eba\u987b\u5f53\u573a\u91c7\u96c6\u4e2a\u4eba\u7b7e\u540d\u3002<br/>4\u3001\u7533\u8bf7\u6362\u53d1\u51fa\u5165\u5883\u8bc1\u4ef6\u7684\uff0c\u539f\u6301\u8bc1\u987b\u4e00\u5e76\u9012\u4ea4\uff0c\u7531\u53d7\u7406\u6c11\u8b66\u6838\u9a8c\u540e\uff0c\u5f53\u573a\u526a\u89d2\u53d1\u8fd8\u3002<br/>5\u3001\u5982\u679c\u7533\u8bf7\u4eba\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\uff0c\u987b\u63d0\u4ea4\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u3002",
+        "ZWDTSW_CATE": [],
+        "stItemRegion": "SH00SH",
+        "stOrgCode": "SHGASH",
+        "main_matter": 0,
+        "deleteFlag": 0,
+        "updateTime": {
+          "$date": 1583747077410
+        },
+        "objectType": "DXLX0001001",
+        "operationTime": {
+          "$date": 1568988181686
+        },
+        "recommendTag": [
+          {
+            "code": "FWTJ0010152"
+          }
+        ],
+        "type": [],
+        "uniqueCoding": "SH00SH310100192016010",
+        "subnameold": "\u8fc7\u671f\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "sub_item_name": "\u8fc7\u671f\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "matter_type": "\u5ba1\u6279",
+        "mainitem_id": 310100192004,
+        "colloquial_name": "\u672c\u5e02\u5c45\u6c11\u91cd\u529e\u62a4\u7167",
+        "status": 1,
+        "frequency": 2307,
+        "rankingCondition": [],
+        "restrictiveCondition": [
+          {
+            "id": "5be94a5b740cd67ed63bead5"
+          },
+          {
+            "id": "5bea350b740cd67ed63bfae5"
+          }
+        ],
+        "isNet": 1,
+        "source": 0,
+        "stTenCode": "0100195000-01-00",
+        "restrictiveConditionLegalPerson": [
+          {
+            "id": "5c358da0e5607f5dead03106"
+          }
+        ],
+        "clientType": [1, 6, 8, 7, 3],
+        "anticipate_day": "",
+        "appUrl": "",
+        "charge_basis": "",
+        "charge_flag": "",
+        "service_day": "",
+        "service_mode": "",
+        "terminalUrl": "",
+        "wechatUrl": "",
+        "applyNotice": "",
+        "applyNoticeFileInfo": "",
+        "applyNoticeFileName": "",
+        "banner": "",
+        "legalBasisNotice": "",
+        "legalBasisNoticeFileInfo": "",
+        "legalBasisNoticeFileName": "",
+        "limitNotice": "",
+        "limitNoticeFileInfo": "",
+        "limitNoticeFileName": "",
+        "relation_match_policy": [],
+        "relation_match_project": [],
+        "relation_match_scene": [],
+        "relation_match_service": [],
+        "tuningWord": ""
+      },
+      {
+        "category": "",
+        "no": 5,
+        "id": 217,
+        "cue": "",
+        "_id": "5ba60c83740cd6676fd44712",
+        "mattercode": "1ecedf4d-d433-4bfe-a165-f33cfcf4b8e4",
+        "name": "\u666e\u901a\u62a4\u7167\u7b7e\u53d1",
+        "title": "\u5173\u4e8e\u51fa\u5165\u5883\u4e8b\u9879\u7684\u7533\u8bf7\u5ba1\u6279",
+        "code": null,
+        "department": "SHGASH",
+        "term": "7\u5929",
+        "address": "\u5e02\u5c40\uff08\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7\uff09\u3001\u81ea\u8d38\u533a\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u652f\u961f\u3001\u5404\u5206\u5c40\u51fa\u5165\u5883\u7ba1\u7406\u529e\u516c\u5ba4\u63a5\u6536\u7533\u8bf7\uff08\u534e\u4fa8\u53ca\u519b\u4eba\u5fc5\u987b\u5728\u5e02\u5c40(\u6d66\u4e1c\u65b0\u533a\u6c11\u751f\u8def1500\u53f7)\u529e\u7406\uff09\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "accept_time": "\u5e02\u5c40\uff1a \u5468\u4e00\uff5e\u5468\u516d 9:00\uff5e17:00\uff08\u6cd5\u5b9a\u8282\u5047\u65e5\u9664\u5916\uff09\uff1b\u5206\u5c40\uff1a\u8be6\u89c1\u5404\u516c\u5b89\u5206\u5c40\u51fa\u5165\u5883\u529e\u4e8b\u5927\u5385\u5bf9\u5916\u516c\u544a\u3002&nbsp;&nbsp;<a href=\"https://gaj.sh.gov.cn/shga/vXtglJgsz/index\" target=\"_blank\">\u70b9\u51fb\u67e5\u770b</a>\r\n",
+        "phone": "021-28951900\u3001021-12345",
+        "dourl": null,
+        "regions": "SH00SH",
+        "executor": "SHGASH",
+        "object": "\u4e2a\u4eba#",
+        "lawbasis": "\u4e00\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u62a4\u7167\u6cd5\u300b\uff082006\u5e744\u670829\u65e5\u7b2c\u5341\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e00\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2007\u5e741\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e94\u6761  \u516c\u6c11\u56e0\u524d\u5f80\u5916\u56fd\u5b9a\u5c45\u3001\u63a2\u4eb2\u3001\u5b66\u4e60\u3001\u5c31\u4e1a\u3001\u65c5\u884c\u3001\u4ece\u4e8b\u5546\u52a1\u6d3b\u52a8\u7b49\u975e\u516c\u52a1\u539f\u56e0\u51fa\u56fd\u7684\uff0c\u7531\u672c\u4eba\u5411\u6237\u7c4d\u6240\u5728\u5730\u7684\u53bf\u7ea7\u4ee5\u4e0a\u5730\u65b9\u4eba\u6c11\u653f\u5e9c\u516c\u5b89\u673a\u5173\u51fa\u5165\u5883\u7ba1\u7406\u673a\u6784\u7533\u8bf7\u666e\u901a\u62a4\u7167\u3002<br/>\u4e8c\u3001\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u51fa\u5883\u5165\u5883\u7ba1\u7406\u6cd5\u300b\uff082012\u5e746\u670830\u65e5\u7531\u7b2c\u5341\u4e00\u5c4a\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a\u5e38\u52a1\u59d4\u5458\u4f1a\u7b2c\u4e8c\u5341\u4e03\u6b21\u4f1a\u8bae\u901a\u8fc7\uff0c\u81ea2013\u5e747\u67081\u65e5\u8d77\u65bd\u884c\uff09\u7b2c\u4e5d\u6761  \u4e2d\u56fd\u516c\u6c11\u51fa\u5883\u5165\u5883\uff0c\u5e94\u5f53\u4f9d\u6cd5\u7533\u8bf7\u529e\u7406\u62a4\u7167\u6216\u8005\u5176\u4ed6\u65c5\u884c\u8bc1\u4ef6\u3002",
+        "lawbasisArr": [],
+        "fileimg": "/group1/M00/20/1B/rBJ9F15g0hOAI99_AAC_Hq7_Rrw970.png\" /></p>",
+        "tongID": 304911,
+        "r-material": [
+          {
+            "id": "5d64b5dd1188e1173099baec"
+          },
+          {
+            "id": "5d64b5dd1188e1173099baed"
+          },
+          {
+            "id": "5d64b5dd1188e1173099baee"
+          }
+        ],
+        "material": [
+          {
+            "id": "5ba6f80b740cd6676fd454fb"
+          },
+          {
+            "id": "5ba6f82e740cd6676fd454fc"
+          },
+          {
+            "id": "5ba6f84f740cd6676fd454fe"
+          }
+        ],
+        "disassembly": 0,
+        "sub_item_code": "",
+        "material_require": "\u6301\u7167\u4eba\u9700\u52a0\u6ce8\u66fe\u7528\u540d\u3001\u82f1\u6587\u59d3\u540d\u3001\u975e\u6807\u51c6\u6c49\u8bed\u62fc\u97f3\u59d3\u540d",
+        "ZWDTSW_CATE": [],
+        "stItemRegion": "SH00SH",
+        "stOrgCode": "SHGASH",
+        "main_matter": 0,
+        "deleteFlag": 0,
+        "updateTime": {
+          "$date": 1583747077410
+        },
+        "objectType": "DXLX0001001",
+        "operationTime": {
+          "$date": 1568988113195
+        },
+        "recommendTag": [],
+        "type": [],
+        "uniqueCoding": "SH00SH310100192016007",
+        "subnameold": "\u52a0\u6ce8\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "sub_item_name": "\u52a0\u6ce8\u7533\u8bf7\uff08\u672c\u5e02\u6237\u7c4d\u5c45\u6c11\uff09",
+        "matter_type": "\u5ba1\u6279",
+        "mainitem_id": 310100192004,
+        "colloquial_name": "\u672c\u5e02\u5c45\u6c11\u529e\u62a4\u7167\u52a0\u6ce8",
+        "status": 1,
+        "frequency": 2307,
+        "rankingCondition": [],
+        "restrictiveCondition": [
+          {
+            "id": "5be94a5b740cd67ed63bead5"
+          },
+          {
+            "id": "5bea350b740cd67ed63bfae5"
+          }
+        ],
+        "isNet": 1,
+        "source": 0,
+        "stTenCode": "0100195000-01-00",
+        "restrictiveConditionLegalPerson": [
+          {
+            "id": "5c358da0e5607f5dead03106"
+          }
+        ],
+        "clientType": [1, 6, 8, 7, 3],
+        "anticipate_day": "",
+        "appUrl": "",
+        "charge_basis": "",
+        "charge_flag": "",
+        "service_day": "",
+        "service_mode": "",
+        "terminalUrl": "",
+        "wechatUrl": "",
+        "applyNotice": "",
+        "applyNoticeFileInfo": "",
+        "applyNoticeFileName": "",
+        "banner": "",
+        "legalBasisNotice": "",
+        "legalBasisNoticeFileInfo": "",
+        "legalBasisNoticeFileName": "",
+        "limitNotice": "",
+        "limitNoticeFileInfo": "",
+        "limitNoticeFileName": "",
+        "relation_match_policy": [],
+        "relation_match_project": [],
+        "relation_match_scene": [],
+        "relation_match_service": [],
+        "tuningWord": ""
+      }
+    ],
+    "nextMatter": [],
+    "matterchoice": 1,
+    "operator": "admin",
+    "deleteFlag": 0,
+    "operationTime": {
+      "$date": 1585002487463
+    },
+    "id": 74,
+    "audit_state": 1,
+    "children": [
+      {
+        "name": "\u6211\u662f\u672c\u5e02\u5c45\u6c11\uff0c\u6211\u8981\u51fa\u56fd",
+        "id": 75,
+        "material": [],
+        "matter": [],
+        "question": {
+          "name": "\u662f\u5426\u9700\u8981\u6d41\u7a0b\u5f15\u5bfc",
+          "type": "radio",
+          "title": "\u662f\u5426\u9700\u8981\u6d41\u7a0b\u5f15\u5bfc",
+          "isRequired": "1",
+          "colCount": 1,
+          "cue": "",
+          "hidden": false,
+          "displayMode": 0,
+          "policyWords": []
+        },
+        "children": [
+          {
+            "id": 111363,
+            "name": "\u6211\u5df2\u77e5\u6089\u529e\u7406\u6d41\u7a0b\uff0c\u8df3\u8fc7\u5f15\u5bfc",
+            "type": 0,
+            "cue": "PGEgaHJlZj0iaHR0cDovL3p3ZHQuc2guZ292LmNuL2dvdlBvcnRhbHMvYnNmdy9maW5kQnNmdy5kbz9faXRlbUlkPVNIMDBTSDMxMDEwMDE5MjAxNiZhbXA7X2l0ZW1UeXBlPSVFNSVBRSVBMSVFNiU4OSVCOSZhbXA7X3N0U3ViaXRlbUlkPWExZjhhM2VmLTE4YjQtNDVmOS04NWQ2LWM3N2QwMjZiNjlhOSIgdGFyZ2V0PSJfYmxhbmsiPuaZrumAmuaKpOeFp+etvuWPkeWKnuS6i+aMh+WNl+WPiuWKnueQhuWFpeWPozwvYT4=",
+            "definedSxId": "",
+            "oneForm": 1,
+            "policyWords": [],
+            "reusable": "",
+            "uuid": "",
+            "ybReusedField": {
+              "showField": [],
+              "disableField": [],
+              "hideField": []
+            },
+            "title": "\u6211\u5df2\u77e5\u6089\u529e\u7406\u6d41\u7a0b\uff0c\u8df3\u8fc7\u5f15\u5bfc",
+            "expanded": true,
+            "children": []
+          },
+          {
+            "id": 111364,
+            "name": "\u6211\u9700\u8981\u5f15\u5bfc\u534f\u52a9\u529e\u7406",
+            "expanded": false,
+            "children": [
+              {
+                "name": "\u9996\u6b21\u7533\u8bf7",
+                "children": [
+                  {
+                    "name": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "children": [
+                      {
+                        "name": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [],
+                        "id": 106144,
+                        "title": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81"
+                      },
+                      {
+                        "name": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c",
+                            "children": [],
+                            "id": 106146,
+                            "title": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c"
+                          },
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "children": [],
+                            "id": 106147,
+                            "title": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "matter": [
+                              {
+                                "material": [
+                                  {
+                                    "id": "5cb7e0e31188e110025b146e"
+                                  },
+                                  {
+                                    "id": "5cb7e1041188e110025b1470"
+                                  }
+                                ],
+                                "id": "5ba60ca9740cd6676fd450fd"
+                              }
+                            ],
+                            "type": 0
+                          }
+                        ],
+                        "id": 106145,
+                        "question": {
+                          "type": "radio",
+                          "isRequired": "1",
+                          "title": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "name": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "cue": "",
+                          "hidden": false,
+                          "displayMode": 0,
+                          "policyWords": []
+                        },
+                        "type": 0,
+                        "title": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "matter": [
+                          {
+                            "material": [
+                              {
+                                "id": "5cb7def51188e110025b145f"
+                              },
+                              {
+                                "id": "5cb7e0641188e110025b146a"
+                              },
+                              {
+                                "id": "5cb7e0931188e110025b146b"
+                              }
+                            ],
+                            "id": "5ba60ca9740cd6676fd450fd"
+                          }
+                        ],
+                        "expanded": false
+                      }
+                    ],
+                    "id": 106139,
+                    "question": {
+                      "type": "radio",
+                      "isRequired": "1",
+                      "title": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "name": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "cue": "",
+                      "hidden": false,
+                      "displayMode": 0,
+                      "policyWords": []
+                    },
+                    "type": 0,
+                    "title": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "expanded": false
+                  },
+                  {
+                    "name": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "children": [],
+                    "id": 106140,
+                    "title": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb7e1e41188e110025b1474"
+                          }
+                        ],
+                        "id": "5ba60ca9740cd6676fd450fd"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "children": [],
+                    "missing": true,
+                    "id": 106141,
+                    "title": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb7e20a1188e110025b1476"
+                          },
+                          {
+                            "id": "5cb7e2c21188e110025b1477"
+                          }
+                        ],
+                        "id": "5ba60ca9740cd6676fd450fd"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "children": [],
+                    "id": 106142,
+                    "title": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb7e3a51188e110025b1483"
+                          }
+                        ],
+                        "id": "5ba60ca9740cd6676fd450fd"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "children": [],
+                    "id": 106143,
+                    "title": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb7e3811188e110025b1481"
+                          }
+                        ],
+                        "id": "5ba60ca9740cd6676fd450fd"
+                      }
+                    ],
+                    "type": 0
+                  }
+                ],
+                "id": 106138,
+                "question": {
+                  "type": "radio",
+                  "isRequired": "1",
+                  "title": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "name": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "cue": "",
+                  "hidden": false,
+                  "displayMode": 0,
+                  "policyWords": []
+                },
+                "type": 0,
+                "title": "\u9996\u6b21\u7533\u8bf7",
+                "expanded": false,
+                "matter": [
+                  {
+                    "material": [
+                      {
+                        "id": "5ba61215740cd6676fd4549f"
+                      },
+                      {
+                        "id": "5ba6133b740cd6676fd454a0"
+                      },
+                      {
+                        "id": "5cb7dea31188e110025b145b"
+                      }
+                    ],
+                    "id": "5ba60ca9740cd6676fd450fd"
+                  }
+                ],
+                "cue": "",
+                "definedSxId": "",
+                "oneForm": 1,
+                "policyWords": [],
+                "reusable": "",
+                "uuid": "",
+                "ybReusedField": {
+                  "showField": [],
+                  "disableField": [],
+                  "hideField": []
+                }
+              },
+              {
+                "name": "\u6362\u53d1\u7533\u8bf7",
+                "children": [
+                  {
+                    "name": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "children": [
+                      {
+                        "name": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [],
+                        "id": 106155,
+                        "title": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81"
+                      },
+                      {
+                        "name": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c",
+                            "children": [],
+                            "id": 106162,
+                            "title": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c"
+                          },
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "children": [],
+                            "id": 106163,
+                            "title": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "matter": [
+                              {
+                                "material": [
+                                  {
+                                    "id": "5cb80ca01188e110025b1492"
+                                  },
+                                  {
+                                    "id": "5cb80cb71188e110025b1493"
+                                  }
+                                ],
+                                "id": "5ba60c8a740cd6676fd448e1"
+                              }
+                            ],
+                            "type": 0
+                          }
+                        ],
+                        "id": 106156,
+                        "question": {
+                          "type": "radio",
+                          "isRequired": "1",
+                          "title": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "name": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "cue": "",
+                          "hidden": false,
+                          "displayMode": 0,
+                          "policyWords": []
+                        },
+                        "type": 0,
+                        "title": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "matter": [
+                          {
+                            "material": [
+                              {
+                                "id": "5cb80c0c1188e110025b148e"
+                              },
+                              {
+                                "id": "5cb80c5a1188e110025b1490"
+                              },
+                              {
+                                "id": "5cb80c721188e110025b1491"
+                              }
+                            ],
+                            "id": "5ba60c8a740cd6676fd448e1"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": 106149,
+                    "question": {
+                      "type": "radio",
+                      "isRequired": "1",
+                      "title": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "name": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "cue": "",
+                      "hidden": false,
+                      "displayMode": 0,
+                      "policyWords": []
+                    },
+                    "type": 0,
+                    "title": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "expanded": false
+                  },
+                  {
+                    "name": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "children": [],
+                    "id": 106150,
+                    "title": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb80ce11188e110025b1494"
+                          }
+                        ],
+                        "id": "5ba60c8a740cd6676fd448e1"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "children": [],
+                    "id": 106151,
+                    "title": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "matter": [
+                      {
+                        "id": "5ba60c8a740cd6676fd448e1",
+                        "material": [
+                          {
+                            "id": "5cb80d261188e110025b1496"
+                          },
+                          {
+                            "id": "5cb80d091188e110025b1495"
+                          }
+                        ]
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "children": [],
+                    "id": 106152,
+                    "title": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb80d7b1188e110025b1498"
+                          }
+                        ],
+                        "id": "5ba60c8a740cd6676fd448e1"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "children": [],
+                    "id": 106153,
+                    "title": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb80d531188e110025b1497"
+                          }
+                        ],
+                        "id": "5ba60c8a740cd6676fd448e1"
+                      }
+                    ],
+                    "type": 0
+                  }
+                ],
+                "id": 106148,
+                "question": {
+                  "type": "radio",
+                  "isRequired": "1",
+                  "title": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "name": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "cue": "",
+                  "hidden": false,
+                  "displayMode": 0,
+                  "policyWords": []
+                },
+                "type": 0,
+                "title": "\u6362\u53d1\u7533\u8bf7",
+                "expanded": false,
+                "matter": [
+                  {
+                    "material": [
+                      {
+                        "id": "5ba6f0e2740cd6676fd454bb"
+                      },
+                      {
+                        "id": "5ba6f0fe740cd6676fd454bc"
+                      },
+                      {
+                        "id": "5cb80bcf1188e110025b148c"
+                      }
+                    ],
+                    "id": "5ba60c8a740cd6676fd448e1"
+                  }
+                ]
+              },
+              {
+                "name": "\u8865\u53d1\u7533\u8bf7",
+                "children": [
+                  {
+                    "name": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "children": [
+                      {
+                        "name": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [],
+                        "id": 106164,
+                        "title": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81"
+                      },
+                      {
+                        "name": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c",
+                            "children": [],
+                            "id": 106166,
+                            "title": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c"
+                          },
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "children": [],
+                            "id": 106167,
+                            "title": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "matter": [
+                              {
+                                "material": [
+                                  {
+                                    "id": "5cb80f7f1188e110025b14a1"
+                                  },
+                                  {
+                                    "id": "5cb80f621188e110025b14a0"
+                                  }
+                                ],
+                                "id": "5ba60c6e740cd6676fd44184"
+                              }
+                            ],
+                            "type": 0
+                          }
+                        ],
+                        "id": 106165,
+                        "question": {
+                          "type": "radio",
+                          "isRequired": "1",
+                          "title": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "name": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "cue": "",
+                          "hidden": false,
+                          "displayMode": 0,
+                          "policyWords": []
+                        },
+                        "type": 0,
+                        "title": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "matter": [
+                          {
+                            "material": [
+                              {
+                                "id": "5cb80ee01188e110025b149c"
+                              },
+                              {
+                                "id": "5cb80f161188e110025b149e"
+                              },
+                              {
+                                "id": "5cb80f321188e110025b149f"
+                              }
+                            ],
+                            "id": "5ba60c6e740cd6676fd44184"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": 106157,
+                    "question": {
+                      "type": "radio",
+                      "isRequired": "1",
+                      "title": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "name": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "cue": "",
+                      "hidden": false,
+                      "displayMode": 0,
+                      "policyWords": []
+                    },
+                    "type": 0,
+                    "title": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "expanded": false
+                  },
+                  {
+                    "name": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "children": [],
+                    "id": 106158,
+                    "title": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb80fa11188e110025b14a2"
+                          }
+                        ],
+                        "id": "5ba60c6e740cd6676fd44184"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "children": [],
+                    "id": 106159,
+                    "title": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb80fbf1188e110025b14a3"
+                          },
+                          {
+                            "id": "5cb80fe81188e110025b14a4"
+                          }
+                        ],
+                        "id": "5ba60c6e740cd6676fd44184"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "children": [],
+                    "id": 106160,
+                    "title": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb810241188e110025b14a6"
+                          }
+                        ],
+                        "id": "5ba60c6e740cd6676fd44184"
+                      }
+                    ],
+                    "type": 0
+                  },
+                  {
+                    "name": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "children": [],
+                    "id": 106161,
+                    "title": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb810061188e110025b14a5"
+                          }
+                        ],
+                        "id": "5ba60c6e740cd6676fd44184"
+                      }
+                    ],
+                    "type": 0
+                  }
+                ],
+                "id": 106154,
+                "question": {
+                  "type": "radio",
+                  "isRequired": "1",
+                  "title": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "name": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "cue": "",
+                  "hidden": false,
+                  "displayMode": 0,
+                  "policyWords": []
+                },
+                "type": 0,
+                "title": "\u8865\u53d1\u7533\u8bf7",
+                "expanded": false,
+                "matter": [
+                  {
+                    "material": [
+                      {
+                        "id": "5ba6f43d740cd6676fd454d4"
+                      },
+                      {
+                        "id": "5ba6f45a740cd6676fd454d5"
+                      },
+                      {
+                        "id": "5cb80eaa1188e110025b149a"
+                      }
+                    ],
+                    "id": "5ba60c6e740cd6676fd44184"
+                  }
+                ]
+              },
+              {
+                "name": "\u8fc7\u671f\u7533\u8bf7",
+                "children": [
+                  {
+                    "name": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11",
+                    "children": [
+                      {
+                        "name": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [],
+                        "id": 106110,
+                        "title": "\u5df2\u6ee1\u5341\u516d\u5468\u5c81"
+                      },
+                      {
+                        "name": "\u672a\u6ee1\u5341\u516d\u5468\u5c81",
+                        "children": [
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c",
+                            "children": [],
+                            "id": 106115,
+                            "title": "\u76d1\u62a4\u4eba\u53ef\u4ee5\u966a\u540c"
+                          },
+                          {
+                            "name": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c",
+                            "children": [],
+                            "id": 106117,
+                            "matter": [
+                              {
+                                "material": [
+                                  {
+                                    "id": "5cb811561188e110025b14ad"
+                                  },
+                                  {
+                                    "id": "5cb8116e1188e110025b14ae"
+                                  }
+                                ],
+                                "id": "5ba60c89740cd6676fd448a4"
+                              }
+                            ],
+                            "type": 0,
+                            "title": "\u76d1\u62a4\u4eba\u65e0\u6cd5\u966a\u540c"
+                          }
+                        ],
+                        "id": 106111,
+                        "question": {
+                          "type": "radio",
+                          "isRequired": "1",
+                          "title": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "name": "\u662f\u5426\u6709\u76d1\u62a4\u4eba\u966a\u540c",
+                          "cue": "",
+                          "hidden": false,
+                          "displayMode": 0,
+                          "policyWords": []
+                        },
+                        "type": 0,
+                        "matter": [
+                          {
+                            "material": [
+                              {
+                                "id": "5cb810ef1188e110025b14a9"
+                              },
+                              {
+                                "id": "5cb811231188e110025b14ab"
+                              },
+                              {
+                                "id": "5cb8113d1188e110025b14ac"
+                              }
+                            ],
+                            "id": "5ba60c89740cd6676fd448a4"
+                          }
+                        ],
+                        "title": "\u672a\u6ee1\u5341\u516d\u5468\u5c81"
+                      }
+                    ],
+                    "id": 106101,
+                    "question": {
+                      "type": "radio",
+                      "isRequired": "1",
+                      "title": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "name": "\u662f\u5426\u5df2\u6ee1\u5341\u516d\u5468\u5c81",
+                      "cue": "",
+                      "hidden": false,
+                      "displayMode": 0,
+                      "policyWords": []
+                    },
+                    "type": 0,
+                    "title": "\u666e\u901a\u672c\u5e02\u6237\u7c4d\u5c45\u6c11"
+                  },
+                  {
+                    "name": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458",
+                    "children": [],
+                    "id": 106103,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb811911188e110025b14af"
+                          }
+                        ],
+                        "id": "5ba60c89740cd6676fd448a4"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u767b\u8bb0\u5907\u6848\u7684\u56fd\u5bb6\u5de5\u4f5c\u4eba\u5458"
+                  },
+                  {
+                    "name": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167",
+                    "children": [],
+                    "id": 106105,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb811b91188e110025b14b0"
+                          },
+                          {
+                            "id": "5cb811d81188e110025b14b1"
+                          }
+                        ],
+                        "id": "5ba60c89740cd6676fd448a4"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u73b0\u5f79\u7684\u4eba\u6c11\u89e3\u653e\u519b\u519b\u4eba\u3001\u4eba\u6c11\u6b66\u88c5\u8b66\u5bdf\u7533\u8bf7\u62a4\u7167"
+                  },
+                  {
+                    "name": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8",
+                    "children": [],
+                    "id": 106106,
+                    "expanded": true,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb8121b1188e110025b14b3"
+                          }
+                        ],
+                        "id": "5ba60c89740cd6676fd448a4"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u73b0\u6682\u4f4f\u5728\u672c\u5e02\u7684\u534e\u4fa8"
+                  },
+                  {
+                    "name": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba",
+                    "children": [],
+                    "id": 106107,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5cb811ff1188e110025b14b2"
+                          }
+                        ],
+                        "id": "5ba60c89740cd6676fd448a4"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u6301\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u65c5\u884c\u8bc1\u5165\u5883\u7684\u7533\u8bf7\u4eba"
+                  }
+                ],
+                "id": 106100,
+                "question": {
+                  "type": "radio",
+                  "isRequired": "1",
+                  "title": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "name": "\u5c5e\u4e8e\u4ee5\u4e0b\u54ea\u79cd\u60c5\u51b5",
+                  "cue": "",
+                  "hidden": false,
+                  "displayMode": 0,
+                  "policyWords": []
+                },
+                "type": 0,
+                "expanded": false,
+                "matter": [
+                  {
+                    "material": [
+                      {
+                        "id": "5ba6f623740cd6676fd454e6"
+                      },
+                      {
+                        "id": "5ba6f63f740cd6676fd454e7"
+                      },
+                      {
+                        "id": "5cb810be1188e110025b14a7"
+                      }
+                    ],
+                    "id": "5ba60c89740cd6676fd448a4"
+                  }
+                ],
+                "title": "\u8fc7\u671f\u7533\u8bf7"
+              },
+              {
+                "name": "\u52a0\u6ce8\u7533\u8bf7",
+                "children": [
+                  {
+                    "name": "\u66fe\u7528\u540d\u52a0\u6ce8",
+                    "children": [],
+                    "id": 106170,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5ba6f80b740cd6676fd454fb"
+                          }
+                        ],
+                        "id": "5ba60c83740cd6676fd44712"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u66fe\u7528\u540d\u52a0\u6ce8"
+                  },
+                  {
+                    "name": "\u82f1\u6587\u59d3\u540d\u52a0\u6ce8",
+                    "children": [],
+                    "id": 106171,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5ba6f82e740cd6676fd454fc"
+                          }
+                        ],
+                        "id": "5ba60c83740cd6676fd44712"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u82f1\u6587\u59d3\u540d\u52a0\u6ce8"
+                  },
+                  {
+                    "name": "\u975e\u6807\u51c6\u6c49\u8bed\u62fc\u97f3\u59d3\u540d\u52a0\u6ce8",
+                    "children": [],
+                    "id": 106172,
+                    "matter": [
+                      {
+                        "material": [
+                          {
+                            "id": "5ba6f84f740cd6676fd454fe"
+                          }
+                        ],
+                        "id": "5ba60c83740cd6676fd44712"
+                      }
+                    ],
+                    "type": 0,
+                    "title": "\u975e\u6807\u51c6\u6c49\u8bed\u62fc\u97f3\u59d3\u540d\u52a0\u6ce8"
+                  }
+                ],
+                "id": 106169,
+                "question": {
+                  "type": "radio",
+                  "isRequired": "1",
+                  "cue": "",
+                  "title": "\u8bf7\u9009\u62e9\u9700\u8981\u52a0\u6ce8\u7684\u5185\u5bb9",
+                  "name": "\u8bf7\u9009\u62e9\u9700\u8981\u52a0\u6ce8\u7684\u5185\u5bb9",
+                  "hidden": false,
+                  "displayMode": 0,
+                  "policyWords": []
+                },
+                "type": 0,
+                "title": "\u52a0\u6ce8\u7533\u8bf7"
+              }
+            ],
+            "question": {
+              "type": "radio",
+              "isRequired": "1",
+              "title": "\u9700\u8981\u529e\u7406\u666e\u901a\u62a4\u7167\u54ea\u79cd\u4e1a\u52a1\t",
+              "name": "\u9700\u8981\u529e\u7406\u666e\u901a\u62a4\u7167\u54ea\u79cd\u4e1a\u52a1\t",
+              "cue": "",
+              "hidden": false,
+              "displayMode": 0,
+              "policyWords": []
+            },
+            "type": 0,
+            "title": "\u6211\u9700\u8981\u5f15\u5bfc\u534f\u52a9\u529e\u7406"
+          }
+        ],
+        "expanded": true,
+        "title": "\u6211\u662f\u672c\u5e02\u5c45\u6c11\uff0c\u6211\u8981\u51fa\u56fd",
+        "type": 0
+      }
+    ],
+    "type": [
+      {
+        "code": "CGJ0001002"
+      },
+      {
+        "code": "1002002"
+      }
+    ],
+    "recommendTag": [],
+    "department": [
+      {
+        "name": "\u8d85\u7ea7\u90e8",
+        "audit_state": 1,
+        "advice": ""
+      },
+      {
+        "name": "SHGASH",
+        "audit_state": 1,
+        "advice": ""
+      }
+    ],
+    "matter": [],
+    "lawArr": [],
+    "phone": [
+      {
+        "phone": "28951900",
+        "id": "5ba60ca9740cd6676fd450fd"
+      }
+    ],
+    "cue": "",
+    "object": "\u4e2a\u4eba#",
+    "regions": "SH00SH",
+    "status": 1,
+    "hidden": 0,
+    "clientType": [1, 6, 7, 8, 3],
+    "image": "",
+    "isNeedAudit": 0,
+    "tuningWord": "",
+    "relation_match_matters": [],
+    "relation_match_policy": [],
+    "relation_match_project": [],
+    "relation_match_service": [],
+    "sceneTag": {},
+    "preSceneWord": "PHA+PC9wPg==",
+    "audit_time": {
+      "$date": 1574414775624
+    },
+    "policyWords": []
+  }
+]

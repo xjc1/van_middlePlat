@@ -1,0 +1,48 @@
+.transportBox {
+  display: flex;
+  height: 400px;
+
+  .boxCard {
+    .transportHeader {
+      width: 100%;
+      padding: 8px 12px 9px;
+      overflow: hidden;
+      color: rgba(0, 0, 0, 0.65);
+      background: #fff;
+      border-bottom: 1px solid #e8e8e8;
+      border-radius: 4px 4px 0 0;
+
+      .headerTitle {
+        line-height: 32px;
+      }
+    }
+    .content {
+      height: 100%;
+      overflow: auto;
+    }
+  }
+
+  .leftBox {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    border: 1px solid #ddd;
+  }
+
+  .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+
+    .actionBtn {
+      margin-bottom: 10px;
+    }
+  }
+
+  .rightBox {
+    flex: auto;
+    border: 1px solid #ddd;
+  }
+}

@@ -1,0 +1,29 @@
+import { Meta,Story, Props, Preview   } from '@storybook/addon-docs/blocks';
+import { DictLazyCascader,TItem } from '@/components/tis_ui'
+import { Form, Row } from 'antd'
+
+
+<Meta title="表单组件/字典操作/DictLazyCascader"
+  component={DictLazyCascader}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 100 }}>{storyFn()}</div>]}
+ />
+
+# DictLazyCascader `延迟加载数据级联选择器`
+
+DictLazyCascader 基于 `antd` Cascader拓展, 增加了多选功能, 传入字典名称, 动态获取字典子项数据.
+> dict="SH00XZQH"
+
+<Preview>
+  <Story name="index">
+    <Form>
+      <Row>
+        <TItem name="regionsLazy" label="行政区划lazy">
+           <DictLazyCascader placeholder="请选择行政区划" dict="SH00XZQH" />
+        </TItem>
+        </Row>
+      </Form>
+  </Story>
+</Preview>
+
+
+<Props of={DictLazyCascader} />

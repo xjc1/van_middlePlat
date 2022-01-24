@@ -1,0 +1,93 @@
+.highLightRichText {
+  position: relative;
+  height: 100%;
+  margin-top: 10px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+
+  .highLightRichText-line {
+    border-bottom: 2px solid #40a9ff;
+  }
+
+  .highLightRichText-line-blue {
+    background-color: #91d5ff;
+  }
+
+  .highLightRichText-line-red {
+    background-color: #ffccc7;
+  }
+
+  .highLightRichText-line-purple {
+    background-color: #d3adf7;
+  }
+
+  .highLightRichText-line-green {
+    background-color: #d9f7be;
+  }
+
+  .highLightRichText-line-active {
+    background: #ffd591;
+  }
+
+  .highLight-Tooltip {
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+
+    .highLight-circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50px;
+      cursor: pointer;
+
+      &.highLight-circle-active {
+        border: 3px solid #6e6e6e;
+      }
+    }
+
+    .highLight-content {
+      padding: 5px;
+    }
+
+    .highLight-tooltipFooter {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      text-align: right;
+
+      .highLightDelete {
+        display: inline-block;
+        padding: 5px;
+        color: #ff4d4f;
+        cursor: pointer;
+      }
+
+      .highLight-close {
+        display: inline-block;
+        padding: 5px;
+        color: #1890ff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .highLight-Tooltip-arrow {
+    position: absolute;
+    z-index: 110;
+    width: 8.48528137px;
+    height: 8.48528137px;
+    background: 0 0;
+    border-style: solid;
+    border-width: 4.24264069px;
+    border-top-color: transparent;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    border-left-color: transparent;
+    box-shadow: 3px 3px 7px #00000012;
+    transform: translateX(-50%) rotate(45deg);
+  }
+}

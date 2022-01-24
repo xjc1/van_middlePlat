@@ -1,0 +1,35 @@
+.tabContainer {
+  position: relative;
+  min-height: 300px;
+
+  .tab {
+    height: 0;
+    overflow: hidden;
+
+    &.active {
+      height: inherit;
+      overflow: visible;
+    }
+  }
+}
+
+.formBtnGroup {
+  position: fixed;
+  right: 30px;
+  bottom: 15%;
+  padding: 0;
+
+  .formBtnItem {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 20px;
+    box-shadow: 0 0 10px #999;
+
+    &:hover {
+      box-shadow: 0 0 15px #333;
+    }
+  }
+}

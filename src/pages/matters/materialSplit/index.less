@@ -1,0 +1,52 @@
+.materialSplit {
+  .materialSplit-head-wrapper {
+    margin-bottom: 10px;
+
+    .materialSplit-head {
+      margin-bottom: 10px;
+      font-weight: 600;
+
+      span {
+        color: #999;
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .materialSplit-content-wrapper {
+    background: #fff;
+
+    &.materialSplit-content-hidden {
+      height: 0;
+      overflow: hidden;
+    }
+
+    .materialSplit-toolbar {
+      padding-top: 10px;
+    }
+
+    :global {
+      .ant-table-expanded-row {
+        > .ant-table-cell {
+          padding: 0;
+          background: #1890ff;
+        }
+      }
+    }
+
+    .splitMaterialList {
+      margin-left: 15px;
+      padding: 5px;
+      background: #fff;
+      box-shadow: inset 0 0 7px 1px #000;
+
+      :global {
+        .ant-table {
+          margin: 0 !important;
+          border-bottom: 1px solid #f0f0f0;
+        }
+      }
+    }
+  }
+}

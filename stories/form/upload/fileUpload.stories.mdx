@@ -1,0 +1,21 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import { Input } from 'antd';
+import { FileUpload } from '@/components/tis_ui';
+
+<Meta
+  title="表单组件/上传按钮/FileUpload"
+  component={FileUpload}
+  decorators={[storyFn => <div text="ffff" style={{ padding: 20, minHeight: 200 }}>{storyFn()}</div>]}
+/>
+
+# FileUpload `文件上传按钮`
+
+FileUpload 提供通用的文件上传与下载服务。
+
+<Preview>
+  <Story name="index">
+    <FileUpload />
+  </Story>
+</Preview>
+
+<Props of={FileUpload} />

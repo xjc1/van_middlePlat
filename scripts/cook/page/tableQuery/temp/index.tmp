@@ -1,0 +1,94 @@
+
+import React, { PureComponent } from 'react';
+import { connect } from 'dva';
+import { TButton } from "@/components/tis_ui";
+import router from "umi/router";
+import <%= upperName%>QueryBar from "./<%= upperName%>QueryBar";
+import <%= upperName%>List from "./<%= upperName%>List";
+import styles from './index.less';
+
+@connect(({ <%= name%> }) => <%= name%>)
+class Index extends PureComponent {
+  queryForm = null;
+
+  state = {
+    query: {}
+  };
+
+  componentDidMount() {
+    this.fetch<%= upperName%>({});
+  }
+
+  fetch<%= upperName%>WithQuery = ({ page = 0, size = 10, query = {} }) => {
+    const { dispatch } = this.props;
+    dispatch({
+      type: '<%= name%>/fetchList',
+      payload: {
+        page, size, query
+      }
+    });
+    this.setState({ query });
+  };
+
+  fetch<%= upperName%> = ({ page = 0, size = 10 }) => {
+    const { query } = this.state;
+    const { dispatch } = this.props;
+    dispatch({
+      type: '<%= name%>/fetchList',
+      payload: {
+        page, size, query
+      }
+    });
+  };
+
+
+  render() {
+    return (
+      <div>
+        <<%= upperName%>QueryBar
+          onForm={(form) => {
+            this.queryForm = form;
+          }}
+          actions={
+            <>
+              <TButton.Create onClick={() => {
+                router.push({
+                  pathname: `/content/<%= pageName%>/edit`,
+                });
+              }}>新增<%= name%></TButton.Create>
+            </>
+          }
+          footer={
+            <>
+              <TButton.Search
+                onClick={() => {
+                  this.queryForm.validateFields().then((query) => {
+                    console.info(query);
+                    this.fetch<%= upperName%>WithQuery({ query });
+                  });
+                }}
+              >查询</TButton.Search>
+              <TButton.Reset
+                onClick={() => {
+                  // 重置数据
+                  this.queryForm.resetFields();
+                  this.fetch<%= upperName%>WithQuery({});
+                }}
+              >
+                重置
+              </TButton.Reset>
+            </>
+          }
+        />
+
+        <<%= upperName%>List
+          className={styles.<%= name%>List}
+          onPageSizeChange={this.fetch<%= upperName%>}
+        />
+      </div>
+    );
+  }
+}
+
+export default Index;
+
